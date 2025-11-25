@@ -1,0 +1,12 @@
+[
+  {
+    "tag": "a",
+    "text": "Learn more",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": "https://iana.org/domains/example",
+    "type": null,
+    "selector": "a"
+  }
+]

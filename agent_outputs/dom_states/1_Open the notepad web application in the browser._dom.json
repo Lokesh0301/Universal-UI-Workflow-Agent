@@ -1,0 +1,1212 @@
+[
+  {
+    "tag": "a",
+    "text": "aNotepad",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": "/",
+    "type": null,
+    "selector": "a.navbar-brand"
+  },
+  {
+    "tag": "button",
+    "text": "",
+    "aria": "Toggle navigation",
+    "role": null,
+    "placeholder": null,
+    "href": null,
+    "type": "button",
+    "selector": "button[aria-label=\"Toggle navigation\"]"
+  },
+  {
+    "tag": "a",
+    "text": "Workspace",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": "/workspace",
+    "type": null,
+    "selector": "a.nav-link"
+  },
+  {
+    "tag": "a",
+    "text": "Register/Login",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": "/create_account",
+    "type": null,
+    "selector": "a.nav-link"
+  },
+  {
+    "tag": "a",
+    "text": "",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": "Javascript:fnLanguage();",
+    "type": null,
+    "selector": "a.nav-link"
+  },
+  {
+    "tag": "form",
+    "text": "New Note Import Docs Share\n \u00a0 Public Note (Register for private notes)",
+    "aria": null,
+    "role": "form",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "form#note_form"
+  },
+  {
+    "tag": "input",
+    "text": "",
+    "aria": null,
+    "role": null,
+    "placeholder": "Note Title",
+    "href": null,
+    "type": "text",
+    "selector": "input#edit_title"
+  },
+  {
+    "tag": "input",
+    "text": "",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": null,
+    "type": "hidden",
+    "selector": "input#notetype"
+  },
+  {
+    "tag": "input",
+    "text": "",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": null,
+    "type": "hidden",
+    "selector": "input#notenumber"
+  },
+  {
+    "tag": "input",
+    "text": "",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": null,
+    "type": "hidden",
+    "selector": "input#autosavenotenumber"
+  },
+  {
+    "tag": "a",
+    "text": "New Note",
+    "aria": null,
+    "role": "button",
+    "placeholder": null,
+    "href": "#",
+    "type": null,
+    "selector": "a#notetypeLabel"
+  },
+  {
+    "tag": "a",
+    "text": "Plain Text Note",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": "/",
+    "type": null,
+    "selector": "a.dropdown-item"
+  },
+  {
+    "tag": "a",
+    "text": "Rich Text Note",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": "Javascript:fnNewRichText();",
+    "type": null,
+    "selector": "a.dropdown-item"
+  },
+  {
+    "tag": "a",
+    "text": "Task List",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": "/tasklist",
+    "type": null,
+    "selector": "a.dropdown-item"
+  },
+  {
+    "tag": "a",
+    "text": "Bookmark",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": "/bookmark",
+    "type": null,
+    "selector": "a.dropdown-item"
+  },
+  {
+    "tag": "a",
+    "text": "Whiteboard",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": "/whiteboard",
+    "type": null,
+    "selector": "a.dropdown-item"
+  },
+  {
+    "tag": "a",
+    "text": "Spreadsheet",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": "/spreadsheet",
+    "type": null,
+    "selector": "a.dropdown-item"
+  },
+  {
+    "tag": "a",
+    "text": "Video Meeting",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": "/meeting",
+    "type": null,
+    "selector": "a.dropdown-item"
+  },
+  {
+    "tag": "a",
+    "text": "Import Docs",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": "Javascript:fnImportFile();",
+    "type": null,
+    "selector": "a"
+  },
+  {
+    "tag": "a",
+    "text": "Share",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": "https://www.addtoany.com/share#url=https%3A%2F%2Fanotepad.com%2F&title=Online%20Notepad%20-%20Take%20Notes%20and%20Share%20Notes%20Online",
+    "type": null,
+    "selector": "a.a2a_dd"
+  },
+  {
+    "tag": "textarea",
+    "text": "",
+    "aria": null,
+    "role": null,
+    "placeholder": "Note Content",
+    "href": null,
+    "type": null,
+    "selector": "textarea#edit_textarea"
+  },
+  {
+    "tag": "input",
+    "text": "",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": null,
+    "type": "button",
+    "selector": "input#btnSaveNote"
+  },
+  {
+    "tag": "a",
+    "text": "Register",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": "/create_account",
+    "type": null,
+    "selector": "a.register"
+  },
+  {
+    "tag": "div",
+    "text": "Note Read Permission\n                \n            \n            \n                \n                    \n                    Public Note\n                \n                \n                    \n           ",
+    "aria": null,
+    "role": "dialog",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "div#manageNoteAccessModal"
+  },
+  {
+    "tag": "div",
+    "text": "Note Read Permission\n                \n            \n            \n                \n                    \n                    Public Note\n                \n                \n                    \n           ",
+    "aria": null,
+    "role": "document",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "div.modal-dialog"
+  },
+  {
+    "tag": "button",
+    "text": "",
+    "aria": "Close",
+    "role": null,
+    "placeholder": null,
+    "href": null,
+    "type": "button",
+    "selector": "button[aria-label=\"Close\"]"
+  },
+  {
+    "tag": "input",
+    "text": "",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": null,
+    "type": "radio",
+    "selector": "input#accesspublic"
+  },
+  {
+    "tag": "input",
+    "text": "",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": null,
+    "type": "radio",
+    "selector": "input#accessprivate"
+  },
+  {
+    "tag": "input",
+    "text": "",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": null,
+    "type": "radio",
+    "selector": "input#accesspasswordprotected"
+  },
+  {
+    "tag": "input",
+    "text": "",
+    "aria": null,
+    "role": null,
+    "placeholder": "Password",
+    "href": null,
+    "type": "text",
+    "selector": "input#password"
+  },
+  {
+    "tag": "input",
+    "text": "",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": null,
+    "type": "checkbox",
+    "selector": "input#quickedit"
+  },
+  {
+    "tag": "input",
+    "text": "",
+    "aria": null,
+    "role": null,
+    "placeholder": "Editor Password",
+    "href": null,
+    "type": "text",
+    "selector": "input#quickeditpassword"
+  },
+  {
+    "tag": "button",
+    "text": "Close",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": null,
+    "type": "button",
+    "selector": "button.btn.btn-secondary"
+  },
+  {
+    "tag": "div",
+    "text": "Note Version History\n                \n            \n            \n            \n            \n                Close",
+    "aria": null,
+    "role": "dialog",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "div#noteVersionsModal"
+  },
+  {
+    "tag": "div",
+    "text": "Note Version History\n                \n            \n            \n            \n            \n                Close",
+    "aria": null,
+    "role": "document",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "div.modal-dialog"
+  },
+  {
+    "tag": "button",
+    "text": "",
+    "aria": "Close",
+    "role": null,
+    "placeholder": null,
+    "href": null,
+    "type": "button",
+    "selector": "button[aria-label=\"Close\"]"
+  },
+  {
+    "tag": "button",
+    "text": "Close",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": null,
+    "type": "button",
+    "selector": "button.btn.btn-secondary"
+  },
+  {
+    "tag": "div",
+    "text": "Send Note by Email\n                \n            \n            \n                This feature is available in Premium plan only. Upgrade Now to access more great features.\n                \n              ",
+    "aria": null,
+    "role": "dialog",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "div#emailNoteModal"
+  },
+  {
+    "tag": "div",
+    "text": "Send Note by Email\n                \n            \n            \n                This feature is available in Premium plan only. Upgrade Now to access more great features.\n                \n              ",
+    "aria": null,
+    "role": "document",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "div.modal-dialog"
+  },
+  {
+    "tag": "button",
+    "text": "",
+    "aria": "Close",
+    "role": null,
+    "placeholder": null,
+    "href": null,
+    "type": "button",
+    "selector": "button[aria-label=\"Close\"]"
+  },
+  {
+    "tag": "a",
+    "text": "Upgrade Now",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": "Javascript:fnPremiumUpgrade();",
+    "type": null,
+    "selector": "a"
+  },
+  {
+    "tag": "form",
+    "text": "Send to Email\n                        \n                            \n                        \n                    \n                    \n                        Note Format\n                        \n    ",
+    "aria": null,
+    "role": "form",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "form"
+  },
+  {
+    "tag": "input",
+    "text": "",
+    "aria": null,
+    "role": null,
+    "placeholder": "Email Address",
+    "href": null,
+    "type": "email",
+    "selector": "input#emailNoteEmail"
+  },
+  {
+    "tag": "input",
+    "text": "",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": null,
+    "type": "radio",
+    "selector": "input#emailNoteTypeHtml"
+  },
+  {
+    "tag": "input",
+    "text": "",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": null,
+    "type": "radio",
+    "selector": "input#emailNoteTypePdf"
+  },
+  {
+    "tag": "input",
+    "text": "",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": null,
+    "type": "radio",
+    "selector": "input#emailNoteTypeDocx"
+  },
+  {
+    "tag": "button",
+    "text": "Close",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": null,
+    "type": "button",
+    "selector": "button.btn.btn-secondary"
+  },
+  {
+    "tag": "div",
+    "text": "Upgrade to Premium\n                \n            \n            \n                \n                    \n                        aNotepad Premium enables the following additional features:\n \n No Ads - No A",
+    "aria": null,
+    "role": "dialog",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "div#premiumPlanModal"
+  },
+  {
+    "tag": "div",
+    "text": "Upgrade to Premium\n                \n            \n            \n                \n                    \n                        aNotepad Premium enables the following additional features:\n \n No Ads - No A",
+    "aria": null,
+    "role": "document",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "div.modal-dialog"
+  },
+  {
+    "tag": "button",
+    "text": "",
+    "aria": "Close",
+    "role": null,
+    "placeholder": null,
+    "href": null,
+    "type": "button",
+    "selector": "button[aria-label=\"Close\"]"
+  },
+  {
+    "tag": "button",
+    "text": "Upgrade Now",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": null,
+    "type": "button",
+    "selector": "button#btnUpgradeNow"
+  },
+  {
+    "tag": "div",
+    "text": "Import Note from Word/PDF File\n                \n            \n            \n                Drag and drop document hereorBrowse files",
+    "aria": null,
+    "role": "dialog",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "div#importFileModal"
+  },
+  {
+    "tag": "div",
+    "text": "Import Note from Word/PDF File\n                \n            \n            \n                Drag and drop document hereorBrowse files",
+    "aria": null,
+    "role": "document",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "div.modal-dialog"
+  },
+  {
+    "tag": "button",
+    "text": "",
+    "aria": "Close",
+    "role": null,
+    "placeholder": null,
+    "href": null,
+    "type": "button",
+    "selector": "button[aria-label=\"Close\"]"
+  },
+  {
+    "tag": "input",
+    "text": "",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": null,
+    "type": "hidden",
+    "selector": "input[name=\"fileuploader-list-importFiles\"]"
+  },
+  {
+    "tag": "input",
+    "text": "",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": null,
+    "type": "file",
+    "selector": "input[name=\"importFiles\"]"
+  },
+  {
+    "tag": "button",
+    "text": "Browse files",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": null,
+    "type": "button",
+    "selector": "button.fileuploader-input-button"
+  },
+  {
+    "tag": "div",
+    "text": "Attach Files to Note\n                \n            \n            \n                    This feature is available in Premium plan only. Upgrade Now to access more great features.\n                    Drag ",
+    "aria": null,
+    "role": "dialog",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "div#attachFileModal"
+  },
+  {
+    "tag": "div",
+    "text": "Attach Files to Note\n                \n            \n            \n                    This feature is available in Premium plan only. Upgrade Now to access more great features.\n                    Drag ",
+    "aria": null,
+    "role": "document",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "div.modal-dialog"
+  },
+  {
+    "tag": "button",
+    "text": "",
+    "aria": "Close",
+    "role": null,
+    "placeholder": null,
+    "href": null,
+    "type": "button",
+    "selector": "button[aria-label=\"Close\"]"
+  },
+  {
+    "tag": "a",
+    "text": "Upgrade Now",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": "Javascript:fnPremiumUpgrade();",
+    "type": null,
+    "selector": "a"
+  },
+  {
+    "tag": "input",
+    "text": "",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": null,
+    "type": "hidden",
+    "selector": "input[name=\"fileuploader-list-attachFiles\"]"
+  },
+  {
+    "tag": "input",
+    "text": "",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": null,
+    "type": "file",
+    "selector": "input[name=\"attachFiles\"]"
+  },
+  {
+    "tag": "button",
+    "text": "Browse files",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": null,
+    "type": "button",
+    "selector": "button.fileuploader-input-button"
+  },
+  {
+    "tag": "a",
+    "text": "Sort by Title",
+    "aria": null,
+    "role": "button",
+    "placeholder": null,
+    "href": "javascript:fnSortByTitle();",
+    "type": null,
+    "selector": "a"
+  },
+  {
+    "tag": "a",
+    "text": "Sort by Updated",
+    "aria": null,
+    "role": "button",
+    "placeholder": null,
+    "href": "javascript:fnSortByUpdated();",
+    "type": null,
+    "selector": "a"
+  },
+  {
+    "tag": "div",
+    "text": "Manage Folders\n                \n            \n            \n            \n            \n                Close",
+    "aria": null,
+    "role": "dialog",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "div#manageFolderModal"
+  },
+  {
+    "tag": "div",
+    "text": "Manage Folders\n                \n            \n            \n            \n            \n                Close",
+    "aria": null,
+    "role": "document",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "div.modal-dialog"
+  },
+  {
+    "tag": "button",
+    "text": "",
+    "aria": "Close",
+    "role": null,
+    "placeholder": null,
+    "href": null,
+    "type": "button",
+    "selector": "button[aria-label=\"Close\"]"
+  },
+  {
+    "tag": "button",
+    "text": "Close",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": null,
+    "type": "button",
+    "selector": "button.btn.btn-secondary"
+  },
+  {
+    "tag": "div",
+    "text": "Share Folder\n                \n            \n            \n            \n            \n                Close",
+    "aria": null,
+    "role": "dialog",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "div#shareFolderModal"
+  },
+  {
+    "tag": "div",
+    "text": "Share Folder\n                \n            \n            \n            \n            \n                Close",
+    "aria": null,
+    "role": "document",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "div.modal-dialog"
+  },
+  {
+    "tag": "button",
+    "text": "",
+    "aria": "Close",
+    "role": null,
+    "placeholder": null,
+    "href": null,
+    "type": "button",
+    "selector": "button[aria-label=\"Close\"]"
+  },
+  {
+    "tag": "button",
+    "text": "Close",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": null,
+    "type": "button",
+    "selector": "button.btn.btn-secondary"
+  },
+  {
+    "tag": "a",
+    "text": "",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": "https://apps.apple.com/app/a-notepad-take-share-notes/id1494609935",
+    "type": null,
+    "selector": "a"
+  },
+  {
+    "tag": "a",
+    "text": "",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": "https://play.google.com/store/apps/details?id=com.anotepad.android",
+    "type": null,
+    "selector": "a"
+  },
+  {
+    "tag": "a",
+    "text": "About",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": "/about",
+    "type": null,
+    "selector": "a"
+  },
+  {
+    "tag": "a",
+    "text": "Privacy",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": "/privacy",
+    "type": null,
+    "selector": "a"
+  },
+  {
+    "tag": "a",
+    "text": "Features",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": "/features",
+    "type": null,
+    "selector": "a"
+  },
+  {
+    "tag": "a",
+    "text": "Resume Builder",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": "https://www.gotresumebuilder.com",
+    "type": null,
+    "selector": "a"
+  },
+  {
+    "tag": "a",
+    "text": "Free Fax",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": "https://www.gotfreefax.com",
+    "type": null,
+    "selector": "a"
+  },
+  {
+    "tag": "a",
+    "text": "Report Abuse",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": "/reportabuse",
+    "type": null,
+    "selector": "a"
+  },
+  {
+    "tag": "div",
+    "text": "Select Your Language\n                \n            \n            \n                \n                    English\n                    Portugu\u00eas\n                    \u010ce\u0161tina\n                    Dansk\n       ",
+    "aria": null,
+    "role": "dialog",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "div#languageModal"
+  },
+  {
+    "tag": "div",
+    "text": "Select Your Language\n                \n            \n            \n                \n                    English\n                    Portugu\u00eas\n                    \u010ce\u0161tina\n                    Dansk\n       ",
+    "aria": null,
+    "role": "document",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "div.modal-dialog"
+  },
+  {
+    "tag": "button",
+    "text": "",
+    "aria": "Close",
+    "role": null,
+    "placeholder": null,
+    "href": null,
+    "type": "button",
+    "selector": "button[aria-label=\"Close\"]"
+  },
+  {
+    "tag": "a",
+    "text": "English",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": "https://anotepad.com",
+    "type": null,
+    "selector": "a"
+  },
+  {
+    "tag": "a",
+    "text": "Portugu\u00eas",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": "https://anotepad.com/language/pt",
+    "type": null,
+    "selector": "a"
+  },
+  {
+    "tag": "a",
+    "text": "\u010ce\u0161tina",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": "https://anotepad.com/language/cs",
+    "type": null,
+    "selector": "a"
+  },
+  {
+    "tag": "a",
+    "text": "Dansk",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": "https://anotepad.com/language/da",
+    "type": null,
+    "selector": "a"
+  },
+  {
+    "tag": "a",
+    "text": "Deutsch",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": "https://anotepad.com/language/de",
+    "type": null,
+    "selector": "a"
+  },
+  {
+    "tag": "a",
+    "text": "Espa\u00f1ol",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": "https://anotepad.com/language/es",
+    "type": null,
+    "selector": "a"
+  },
+  {
+    "tag": "a",
+    "text": "Fran\u00e7ais",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": "https://anotepad.com/language/fr",
+    "type": null,
+    "selector": "a"
+  },
+  {
+    "tag": "a",
+    "text": "Italiano",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": "https://anotepad.com/language/it",
+    "type": null,
+    "selector": "a"
+  },
+  {
+    "tag": "a",
+    "text": "Bahasa Indonesia",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": "https://anotepad.com/language/id",
+    "type": null,
+    "selector": "a"
+  },
+  {
+    "tag": "a",
+    "text": "Bahasa Melayu",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": "https://anotepad.com/language/ms",
+    "type": null,
+    "selector": "a"
+  },
+  {
+    "tag": "a",
+    "text": "Nederlands",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": "https://anotepad.com/language/nl",
+    "type": null,
+    "selector": "a"
+  },
+  {
+    "tag": "a",
+    "text": "Norsk",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": "https://anotepad.com/language/no",
+    "type": null,
+    "selector": "a"
+  },
+  {
+    "tag": "a",
+    "text": "Polski",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": "https://anotepad.com/language/pl",
+    "type": null,
+    "selector": "a"
+  },
+  {
+    "tag": "a",
+    "text": "Suomi",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": "https://anotepad.com/language/fi",
+    "type": null,
+    "selector": "a"
+  },
+  {
+    "tag": "a",
+    "text": "Svenska",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": "https://anotepad.com/language/sv",
+    "type": null,
+    "selector": "a"
+  },
+  {
+    "tag": "a",
+    "text": "Ti\u1ebfng Vi\u1ec7t",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": "https://anotepad.com/language/vi",
+    "type": null,
+    "selector": "a"
+  },
+  {
+    "tag": "a",
+    "text": "T\u00fcrk\u00e7e",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": "https://anotepad.com/language/tr",
+    "type": null,
+    "selector": "a"
+  },
+  {
+    "tag": "a",
+    "text": "\u0395\u03bb\u03bb\u03b7\u03bd\u03b9\u03ba\u03ac",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": "https://anotepad.com/language/el",
+    "type": null,
+    "selector": "a"
+  },
+  {
+    "tag": "a",
+    "text": "\u0420\u0443\u0441\u0441\u043a\u0438\u0439",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": "https://anotepad.com/language/ru",
+    "type": null,
+    "selector": "a"
+  },
+  {
+    "tag": "a",
+    "text": "\u0423\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u0430",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": "https://anotepad.com/language/ua",
+    "type": null,
+    "selector": "a"
+  },
+  {
+    "tag": "a",
+    "text": "\u05e2\u05d1\u05e8\u05d9\u05ea",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": "https://anotepad.com/language/he",
+    "type": null,
+    "selector": "a"
+  },
+  {
+    "tag": "a",
+    "text": "\u0627\u0644\u0639\u0631\u0628\u064a\u0629",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": "https://anotepad.com/language/ar",
+    "type": null,
+    "selector": "a"
+  },
+  {
+    "tag": "a",
+    "text": "\u0939\u093f\u0928\u094d\u0926\u0940",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": "https://anotepad.com/language/hi",
+    "type": null,
+    "selector": "a"
+  },
+  {
+    "tag": "a",
+    "text": "\u0e20\u0e32\u0e29\u0e32\u0e44\u0e17\u0e22",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": "https://anotepad.com/language/th",
+    "type": null,
+    "selector": "a"
+  },
+  {
+    "tag": "a",
+    "text": "\ud55c\uad6d\uc5b4",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": "https://anotepad.com/language/ko",
+    "type": null,
+    "selector": "a"
+  },
+  {
+    "tag": "a",
+    "text": "\u4e2d\u6587(\u7b80\u4f53)",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": "https://anotepad.com/language/cn",
+    "type": null,
+    "selector": "a"
+  },
+  {
+    "tag": "a",
+    "text": "\u4e2d\u6587(\u7e41\u9ad4)",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": "https://anotepad.com/language/tw",
+    "type": null,
+    "selector": "a"
+  },
+  {
+    "tag": "a",
+    "text": "\u65e5\u672c\u8a9e",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": "https://anotepad.com/language/jp",
+    "type": null,
+    "selector": "a"
+  },
+  {
+    "tag": "div",
+    "text": "Copy link\u2713Thanks for sharing!",
+    "aria": "",
+    "role": "dialog",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "div#a2a_modal"
+  },
+  {
+    "tag": "input",
+    "text": "",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": null,
+    "type": "text",
+    "selector": "input#a2a_copy_link_text"
+  },
+  {
+    "tag": "div",
+    "text": "Thanks for sharing!",
+    "aria": null,
+    "role": "dialog",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "div#a2a_thanks"
+  },
+  {
+    "tag": "div",
+    "text": "Find any serviceAddToAny",
+    "aria": "Share",
+    "role": "dialog",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "div#a2apage_full"
+  },
+  {
+    "tag": "input",
+    "text": "",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": null,
+    "type": "text",
+    "selector": "input#a2apage_find"
+  },
+  {
+    "tag": "div",
+    "text": "",
+    "aria": null,
+    "role": "presentation",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "div#a2apage_full_services"
+  },
+  {
+    "tag": "a",
+    "text": "AddToAny",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": "https://www.addtoany.com",
+    "type": null,
+    "selector": "a"
+  },
+  {
+    "tag": "a",
+    "text": "More\u2026",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": "#addtoany",
+    "type": null,
+    "selector": "a#a2apage_show_more_less"
+  }
+]

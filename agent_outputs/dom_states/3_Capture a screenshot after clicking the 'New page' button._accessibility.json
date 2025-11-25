@@ -1,0 +1,75 @@
+{
+  "role": "WebArea",
+  "name": "Linear",
+  "children": [
+    {
+      "role": "text",
+      "name": "Create a new workspace"
+    },
+    {
+      "role": "text",
+      "name": "Workspaces are shared environments where teams can work on projects, cycles and issues."
+    },
+    {
+      "role": "text",
+      "name": "Workspace Name"
+    },
+    {
+      "role": "textbox",
+      "name": "Workspace Name",
+      "focused": true,
+      "value": "Lokesh"
+    },
+    {
+      "role": "text",
+      "name": "Workspace URL"
+    },
+    {
+      "role": "text",
+      "name": "linear.app"
+    },
+    {
+      "role": "text",
+      "name": "/"
+    },
+    {
+      "role": "textbox",
+      "name": "Workspace URL",
+      "value": "lokesh"
+    },
+    {
+      "role": "text",
+      "name": "This workspace URL is already taken."
+    },
+    {
+      "role": "text",
+      "name": "Workspace will be hosted in the"
+    },
+    {
+      "role": "combobox",
+      "name": "Workspace will be hosted in the",
+      "haspopup": "listbox",
+      "value": "United States"
+    },
+    {
+      "role": "button",
+      "name": "Change region"
+    },
+    {
+      "role": "button",
+      "name": "Create workspace"
+    },
+    {
+      "role": "button",
+      "name": "Logged in as friendscoloradotrip@gmail.com"
+    },
+    {
+      "role": "button",
+      "name": "Back to Linear"
+    },
+    {
+      "role": "region",
+      "name": "Notifications alt+T"
+    }
+  ]
+}

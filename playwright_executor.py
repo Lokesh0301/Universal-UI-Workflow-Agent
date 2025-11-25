@@ -9,18 +9,21 @@ class StepExecutor:
     Fully general-purpose executor for LLM-generated browser actions.
     Supports Playwright actions across ANY web application.
     Includes:
-      - Safe clicking
-      - Auto scrolling
-      - Typing, keyboard, mouse, file upload
+      - Safe clicking with fallback strategies
+      - Auto scrolling when an element is outside viewport
+      - Typing, keyboard input, file upload
       - Dropdown selection
-      - Iframe interaction
-      - Automatic screenshot after ANY UI-changing action
-      - Automatic DOM + accessibility snapshots for LLM
-      - Full generalization across apps
+      - iFrame interaction
+      - Automatic screenshot after ALL UI-changing actions
+      - DOM + accessibility snapshots for next-step LLM reasoning
+      - Full generalization across apps via semantic DOM extraction
     """
 
-    def __init__(self, steps, output_dir="agent_outputs", capture_dom=True, capture_accessibility=True):
+    def __init__(self, steps, output_dir="agent_outputs",
+                 capture_dom=True, capture_accessibility=True):
+
         self.steps = steps
+
         self.output_dir = Path(output_dir)
         self.output_dir.mkdir(exist_ok=True, parents=True)
 
@@ -33,14 +36,10 @@ class StepExecutor:
         self.capture_dom = capture_dom
         self.capture_accessibility = capture_accessibility
 
-    # -------------------------------------------------------
-    # SEMANTIC DOM EXTRACTION (required for LLM step planning)
-    # -------------------------------------------------------
+    # ---------------------------------------------
+    # SEMANTIC DOM TREE FOR AGENTIC NEXT-STEP PLANNING
+    # ---------------------------------------------
     async def _extract_semantic_dom(self, page):
-        """
-        Extracts a compact representation of all actionable elements.
-        This is what the LLM uses to plan next-step actions.
-        """
         return await page.evaluate(
             """() => {
                 const nodes = document.querySelectorAll(
@@ -51,62 +50,64 @@ class StepExecutor:
                     const tag = el.tagName.toLowerCase();
                     const text = (el.innerText || '').trim().slice(0, 200);
                     const aria = el.getAttribute('aria-label');
-                    const role = el.getAttribute('role') || null;
+                    const role = el.getAttribute('role');
                     const placeholder = el.getAttribute('placeholder');
-                    const type = el.getAttribute('type');
                     const href = el.getAttribute('href');
-
-                    // Build the most stable selector possible
-                    let selector = null;
+                    const type = el.getAttribute('type');
                     const id = el.id;
-                    const dataTest = el.getAttribute('data-testid');
+                    const dt = el.getAttribute('data-testid');
                     const name = el.getAttribute('name');
 
-                    if (id) selector = `${tag}#${id}`;
-                    else if (dataTest) selector = `${tag}[data-testid="${dataTest}"]`;
+                    let selector = null;
+
+                    if (dt) selector = `${tag}[data-testid="${dt}"]`;
+                    else if (id) selector = `${tag}#${id}`;
                     else if (name) selector = `${tag}[name="${name}"]`;
                     else if (aria) selector = `${tag}[aria-label="${aria}"]`;
                     else {
-                        const classes = [...el.classList].slice(0, 2).join('.');
-                        selector = classes ? `${tag}.${classes}` : tag;
+                        const cl = [...el.classList].slice(0, 2).join('.');
+                        selector = cl ? `${tag}.${cl}` : tag;
                     }
 
-                    return { tag, role, text, aria, placeholder, type, href, selector };
+                    return {
+                        tag, text, aria, role, placeholder, href, type,
+                        selector
+                    };
                 };
 
                 return [...nodes].map(describe);
             }"""
         )
 
-    # -------------------------------------------------------
-    # ACCESSIBILITY SNAPSHOT (optional supplement)
-    # -------------------------------------------------------
+    # ---------------------------------------------
+    # ACCESSIBILITY TREE EXTRACTION
+    # ---------------------------------------------
     async def _extract_accessibility_tree(self, page):
         try:
             return await page.accessibility.snapshot()
         except:
             return None
 
+    # ---------------------------------------------
+    # SAVE STATE (Screenshot + DOM + AX Tree)
+    # ---------------------------------------------
     async def _save_state(self, page, idx, description):
-        """Screenshot + DOM + Accessibility Tree"""
         screenshot_path = self.screenshots_dir / f"{idx+1}_{description}.png"
         await page.screenshot(path=screenshot_path)
 
-        # Save semantic DOM
         if self.capture_dom:
             dom_data = await self._extract_semantic_dom(page)
-            with open(self.dom_dir / f"{idx+1}_{description}_dom.json", "w", encoding="utf-8") as f:
+            with open(self.dom_dir / f"{idx+1}_{description}_dom.json", "w") as f:
                 json.dump(dom_data, f, indent=2)
 
-        # Save accessibility tree
         if self.capture_accessibility:
             acc = await self._extract_accessibility_tree(page)
-            with open(self.dom_dir / f"{idx+1}_{description}_accessibility.json", "w", encoding="utf-8") as f:
+            with open(self.dom_dir / f"{idx+1}_{description}_accessibility.json", "w") as f:
                 json.dump(acc, f, indent=2)
 
-    # -------------------------------------------------------
-    # LOW-LEVEL SAFE OPERATIONS
-    # -------------------------------------------------------
+    # ---------------------------------------------
+    # SAFE HELPERS
+    # ---------------------------------------------
     async def _safe_click(self, page, selector):
         try:
             el = page.locator(selector).first
@@ -122,9 +123,127 @@ class StepExecutor:
             await page.click(selector)
             await page.fill(selector, value)
 
-    # -------------------------------------------------------
+    # ---------------------------------------------
+    # EXECUTE A SINGLE STEP (for agentic loops)
+    # ---------------------------------------------
+    async def execute_step(self, page, idx, step):
+        """
+        Executes a single step and returns:
+        (success, error_message, semantic_dom, accessibility_tree)
+        """
+
+        action = step.get("action")
+        selector = step.get("selector")
+        value = step.get("value")
+        desc = step.get("description", f"step_{idx+1}")
+
+        print(f"\n▶ SINGLE STEP {idx+1}: {json.dumps(step, indent=2)}")
+
+        try:
+            # ---------------- Navigation ----------------
+            if action == "goto":
+                await page.goto(value, wait_until="domcontentloaded")
+
+            elif action == "wait_for_navigation":
+                await page.wait_for_load_state("networkidle")
+
+            # ---------------- Clicking ----------------
+            elif action == "click":
+                await self._safe_click(page, selector)
+
+            elif action == "dblclick":
+                await page.dblclick(selector)
+
+            elif action == "right_click":
+                await page.click(selector, button="right")
+
+            # ---------------- Typing ----------------
+            elif action == "type":
+                await self._safe_fill(page, selector, value)
+
+            elif action == "keyboard_type":
+                await page.keyboard.type(value)
+
+            elif action == "keyboard_press":
+                await page.keyboard.press(value)
+
+            elif action == "press":
+                await page.press(selector, value)
+
+            # ---------------- Hover ----------------
+            elif action == "hover":
+                await page.hover(selector)
+
+            # ---------------- Waiting ----------------
+            elif action == "wait_for":
+                await page.wait_for_selector(selector)
+
+            elif action == "wait":
+                await page.wait_for_timeout(value)
+
+            # ---------------- Scrolling ----------------
+            elif action == "scroll_to":
+                await page.locator(selector).scroll_into_view_if_needed()
+
+            elif action == "scroll_by":
+                await page.mouse.wheel(value.get("x", 0), value.get("y", 400))
+
+            # ---------------- Dropdowns ----------------
+            elif action == "select_option":
+                await page.select_option(selector, value)
+
+            # ---------------- File Upload ----------------
+            elif action == "upload_file":
+                await page.set_input_files(selector, value)
+
+            # ---------------- Title Handler ----------------
+            elif action == "set_title":
+                el = page.locator(selector).first
+                await el.click()
+                await page.keyboard.press("Control+A")
+                await page.keyboard.press("Backspace")
+                await page.keyboard.type(value, delay=40)
+
+            # ---------------- iFrames ----------------
+            elif action == "frame_click":
+                frame = page.frame(name=step["frame_name"])
+                await frame.click(selector)
+
+            elif action == "frame_type":
+                frame = page.frame(name=step["frame_name"])
+                await frame.fill(selector, value)
+
+            # ---------------- Screenshot ----------------
+            elif action == "screenshot":
+                await self._save_state(page, idx, desc)
+
+            else:
+                raise Exception(f"Unknown action: {action}")
+
+            # -----------------------------------
+            # After ANY UI-changing action → save
+            # -----------------------------------
+            if action not in ["wait", "wait_for", "screenshot"]:
+                await self._save_state(page, idx, desc)
+
+            # Success → return state details
+            semantic_dom = await self._extract_semantic_dom(page)
+            accessibility_tree = await self._extract_accessibility_tree(page)
+            return True, None, semantic_dom, accessibility_tree
+
+        except Exception as e:
+            error_msg = str(e)
+            print(f"❌ Error in single step {idx+1}: {error_msg}")
+
+            semantic_dom = await self._extract_semantic_dom(page)
+            accessibility_tree = await self._extract_accessibility_tree(page)
+
+            return False, error_msg, semantic_dom, accessibility_tree
+
+
+    # ---------------------------------------------
     # MAIN EXECUTION LOOP
-    # -------------------------------------------------------
+    # ---------------------------------------------
     async def run(self):
         async with async_playwright() as p:
             browser = await p.chromium.launch(headless=False)
@@ -140,14 +259,14 @@ class StepExecutor:
                 print(f"\n▶ STEP {idx+1}: {json.dumps(step, indent=2)}")
 
                 try:
-                    # -------- NAVIGATION --------
+                    # ---------------- Navigation ----------------
                     if action == "goto":
                         await page.goto(value, wait_until="domcontentloaded")
 
                     elif action == "wait_for_navigation":
                         await page.wait_for_load_state("networkidle")
 
-                    # -------- CLICKING --------
+                    # ---------------- Clicking ----------------
                     elif action == "click":
                         await self._safe_click(page, selector)
 
@@ -157,7 +276,7 @@ class StepExecutor:
                     elif action == "right_click":
                         await page.click(selector, button="right")
 
-                    # -------- TYPING --------
+                    # ---------------- Typing ----------------
                     elif action == "type":
                         await self._safe_fill(page, selector, value)
 
@@ -170,35 +289,33 @@ class StepExecutor:
                     elif action == "press":
                         await page.press(selector, value)
 
-                    # -------- HOVER --------
+                    # ---------------- Hover ----------------
                     elif action == "hover":
                         await page.hover(selector)
 
-                    # -------- WAITING --------
+                    # ---------------- Waiting ----------------
                     elif action == "wait_for":
                         await page.wait_for_selector(selector)
 
                     elif action == "wait":
                         await page.wait_for_timeout(value)
 
-                    # -------- SCROLLING --------
+                    # ---------------- Scrolling ----------------
                     elif action == "scroll_to":
-                        await page.evaluate(
-                            f"document.querySelector('{selector}')?.scrollIntoView()"
-                        )
+                        await page.locator(selector).scroll_into_view_if_needed()
 
                     elif action == "scroll_by":
                         await page.mouse.wheel(value.get("x", 0), value.get("y", 400))
 
-                    # -------- SELECTING/DROPDOWN --------
+                    # ---------------- Dropdowns ----------------
                     elif action == "select_option":
                         await page.select_option(selector, value)
 
-                    # -------- FILE UPLOAD --------
+                    # ---------------- File Upload ----------------
                     elif action == "upload_file":
                         await page.set_input_files(selector, value)
 
-                    # -------- SPECIAL TITLE HANDLER --------
+                    # ---------------- Title Handler ----------------
                     elif action == "set_title":
                         el = page.locator(selector).first
                         await el.click()
@@ -206,7 +323,7 @@ class StepExecutor:
                         await page.keyboard.press("Backspace")
                         await page.keyboard.type(value, delay=40)
 
-                    # -------- IFRAME HANDLING --------
+                    # ---------------- iFrames ----------------
                     elif action == "frame_click":
                         frame = page.frame(name=step["frame_name"])
                         await frame.click(selector)
@@ -215,17 +332,15 @@ class StepExecutor:
                         frame = page.frame(name=step["frame_name"])
                         await frame.fill(selector, value)
 
-                    # -------- RAW SCREENSHOT --------
+                    # ---------------- Raw screenshot ----------------
                     elif action == "screenshot":
                         await self._save_state(page, idx, desc)
                         continue
 
                     else:
-                        print(f"⚠ Unknown action: {action}")
+                        print("⚠ Unknown action:", action)
 
-                    # -----------------------------------------
-                    # After ANY meaningful UI-changing action
-                    # -----------------------------------------
+                    # ---------------- Auto-save state ----------------
                     if action not in ["wait", "wait_for"]:
                         await self._save_state(page, idx, desc)
 
@@ -233,6 +348,7 @@ class StepExecutor:
                     print(f"❌ Error executing step {idx+1}: {e}")
 
             await browser.close()
+
 
 # -------------------------
 # Standalone Test Execution

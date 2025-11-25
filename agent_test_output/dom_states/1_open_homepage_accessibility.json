@@ -165,6 +165,26 @@
         },
         {
           "role": "treeitem",
+          "name": "New page",
+          "level": 1,
+          "children": [
+            {
+              "role": "button",
+              "name": "Open",
+              "description": "New page"
+            },
+            {
+              "role": "button",
+              "name": "Delete, duplicate, and more\u2026"
+            },
+            {
+              "role": "button",
+              "name": "Add a page inside"
+            }
+          ]
+        },
+        {
+          "role": "treeitem",
           "name": "Welcome to Notion!",
           "level": 1,
           "children": [
@@ -299,7 +319,7 @@
       "role": "textbox",
       "name": "Start typing to edit text",
       "multiline": true,
-      "value": "Add cover\nAdd comment\nWelcome to Notion!\nCreate an account with Notion\nDownload the desktop app to unlock offline mode and take Notion with you wherever you go\nClick anywhere below and type / to see what you can create \u2013 headers, tables, to-do\u2019s, etc.\nType /page to add a new page and nest anything, anywhere\nFind, organize, and add new pages using the sidebar to the left \u200b\nCheck out the To Do List we added for you with more tips and tricks to best use Notion\nMake a new page and type /meet to capture meeting notes and thoughts effortlessly\nClick on the \n Notion AI face in the bottom right of your screen or click here to see what Agent can do\nThis is a toggle block. Click the little triangle to see a few more useful tips!"
+      "value": "Add cover\nAdd comment\nWelcome to Notion!\nCreate an account with Notion\nDownload the desktop app to unlock offline mode and take Notion with you wherever you go\nClick anywhere below and type / to see what you can create \u2013 headers, tables, to-do\u2019s, etc.\nType /page to add a new page and nest anything, anywhere\nFind, organize, and add new pages using the sidebar to the left \u200b\nCheck out the To Do List we added for you with more tips and tricks to best use Notion\nMake a new page and type /meet to capture meeting notes and thoughts effortlessly\nClick on the  Notion AI face in the bottom right of your screen or click here to see what Agent can do\nThis is a toggle block. Click the little triangle to see a few more useful tips!"
     },
     {
       "role": "progressbar",

@@ -1,0 +1,19 @@
+{
+  "role": "WebArea",
+  "name": "Example Domain",
+  "children": [
+    {
+      "role": "heading",
+      "name": "Example Domain",
+      "level": 1
+    },
+    {
+      "role": "text",
+      "name": "This domain is for use in documentation examples without needing permission. Avoid use in operations."
+    },
+    {
+      "role": "link",
+      "name": "Learn more"
+    }
+  ]
+}

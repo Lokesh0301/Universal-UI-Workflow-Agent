@@ -1,0 +1,397 @@
+{
+  "role": "WebArea",
+  "name": "Projects",
+  "children": [
+    {
+      "role": "Audio",
+      "name": "Unable to play media.",
+      "disabled": true,
+      "children": [
+        {
+          "role": "button",
+          "name": "play",
+          "disabled": true
+        },
+        {
+          "role": "slider",
+          "name": "audio time scrubber",
+          "description": "total time: 0:00",
+          "valuetext": "elapsed time: 0:00",
+          "disabled": true,
+          "valuemin": 0,
+          "valuemax": 100,
+          "orientation": "horizontal",
+          "value": 0
+        },
+        {
+          "role": "button",
+          "name": "mute",
+          "disabled": true
+        },
+        {
+          "role": "button",
+          "name": "show more media controls",
+          "description": "more options",
+          "haspopup": "menu"
+        }
+      ]
+    },
+    {
+      "role": "link",
+      "name": "Skip to content"
+    },
+    {
+      "role": "button",
+      "name": "Lokesh Madem Workspace Menu",
+      "haspopup": "menu"
+    },
+    {
+      "role": "button",
+      "name": "Search workspace"
+    },
+    {
+      "role": "button",
+      "name": "Create new issue"
+    },
+    {
+      "role": "generic",
+      "name": "",
+      "children": [
+        {
+          "role": "button",
+          "name": "Inbox",
+          "roledescription": "sortable",
+          "children": [
+            {
+              "role": "link",
+              "name": "Inbox"
+            }
+          ]
+        },
+        {
+          "role": "button",
+          "name": "My issues",
+          "roledescription": "sortable",
+          "children": [
+            {
+              "role": "link",
+              "name": "My issues"
+            }
+          ]
+        },
+        {
+          "role": "button",
+          "name": "",
+          "roledescription": "sortable"
+        },
+        {
+          "role": "button",
+          "name": "Workspace",
+          "expanded": true
+        },
+        {
+          "role": "button",
+          "name": "Projects",
+          "roledescription": "sortable",
+          "children": [
+            {
+              "role": "link",
+              "name": "Projects"
+            }
+          ]
+        },
+        {
+          "role": "button",
+          "name": "Views",
+          "roledescription": "sortable",
+          "children": [
+            {
+              "role": "link",
+              "name": "Views"
+            }
+          ]
+        },
+        {
+          "role": "button",
+          "name": "",
+          "roledescription": "sortable"
+        },
+        {
+          "role": "button",
+          "name": "",
+          "roledescription": "sortable"
+        },
+        {
+          "role": "button",
+          "name": "Show more workspace links"
+        },
+        {
+          "role": "button",
+          "name": "Your teams",
+          "expanded": true
+        },
+        {
+          "role": "button",
+          "name": "Lokesh Madem Issues Projects Views",
+          "roledescription": "sortable",
+          "children": [
+            {
+              "role": "button",
+              "name": "Lokesh Madem Team menu",
+              "expanded": true,
+              "children": [
+                {
+                  "role": "generic",
+                  "name": "Team menu"
+                }
+              ]
+            },
+            {
+              "role": "link",
+              "name": "Issues"
+            },
+            {
+              "role": "link",
+              "name": "Projects"
+            },
+            {
+              "role": "link",
+              "name": "Views"
+            }
+          ]
+        },
+        {
+          "role": "button",
+          "name": "Try",
+          "expanded": true
+        },
+        {
+          "role": "link",
+          "name": "Import issues"
+        },
+        {
+          "role": "button",
+          "name": "Dismiss"
+        },
+        {
+          "role": "generic",
+          "name": "",
+          "children": [
+            {
+              "role": "text",
+              "name": "Invite people"
+            }
+          ]
+        },
+        {
+          "role": "button",
+          "name": "Dismiss"
+        },
+        {
+          "role": "link",
+          "name": "Link GitHub"
+        },
+        {
+          "role": "button",
+          "name": "Dismiss"
+        }
+      ]
+    },
+    {
+      "role": "button",
+      "name": "Open Help menu",
+      "haspopup": "menu"
+    },
+    {
+      "role": "heading",
+      "name": "Projects",
+      "level": 2
+    },
+    {
+      "role": "generic",
+      "name": "",
+      "children": [
+        {
+          "role": "link",
+          "name": "All projects"
+        }
+      ]
+    },
+    {
+      "role": "button",
+      "name": "Add new view"
+    },
+    {
+      "role": "button",
+      "name": "Copy page URL"
+    },
+    {
+      "role": "button",
+      "name": "Add project"
+    },
+    {
+      "role": "button",
+      "name": "Close sidebar"
+    },
+    {
+      "role": "button",
+      "name": "Add filter"
+    },
+    {
+      "role": "button",
+      "name": "Display options"
+    },
+    {
+      "role": "image",
+      "name": "No projects illustration"
+    },
+    {
+      "role": "text",
+      "name": "Projects"
+    },
+    {
+      "role": "text",
+      "name": "Projects are larger units of work with a clear outcome, such as a new feature you want to ship. They can be shared across multiple teams and are comprised of issues and optional documents."
+    },
+    {
+      "role": "button",
+      "name": "Create new project"
+    },
+    {
+      "role": "link",
+      "name": "Documentation"
+    },
+    {
+      "role": "region",
+      "name": "Notifications alt+T"
+    },
+    {
+      "role": "generic",
+      "name": ""
+    },
+    {
+      "role": "generic",
+      "name": "",
+      "children": [
+        {
+          "role": "generic",
+          "name": ""
+        },
+        {
+          "role": "button",
+          "name": "Change project teams",
+          "disabled": true
+        },
+        {
+          "role": "text",
+          "name": "\u203a"
+        },
+        {
+          "role": "text",
+          "name": "New project"
+        },
+        {
+          "role": "button",
+          "name": "Discard project"
+        },
+        {
+          "role": "generic",
+          "name": "",
+          "children": [
+            {
+              "role": "button",
+              "name": "Choose icon"
+            },
+            {
+              "role": "textbox",
+              "name": "Project name",
+              "focused": true,
+              "value": "project-A"
+            },
+            {
+              "role": "textbox",
+              "name": "Project summary",
+              "value": "\n"
+            },
+            {
+              "role": "combobox",
+              "name": "Change project status",
+              "haspopup": "listbox",
+              "value": "Backlog"
+            },
+            {
+              "role": "combobox",
+              "name": "Change project priority",
+              "haspopup": "listbox",
+              "value": "No priority"
+            },
+            {
+              "role": "combobox",
+              "name": "Set project lead",
+              "haspopup": "listbox",
+              "value": "Lead"
+            },
+            {
+              "role": "combobox",
+              "name": "Change project members",
+              "haspopup": "listbox",
+              "value": "Members"
+            },
+            {
+              "role": "button",
+              "name": "Change project start date",
+              "children": [
+                {
+                  "role": "combobox",
+                  "name": "Change start date",
+                  "haspopup": "listbox",
+                  "value": "Start"
+                }
+              ]
+            },
+            {
+              "role": "button",
+              "name": "Change project target date",
+              "children": [
+                {
+                  "role": "combobox",
+                  "name": "Change target date",
+                  "haspopup": "listbox",
+                  "value": "Target"
+                }
+              ]
+            },
+            {
+              "role": "combobox",
+              "name": "Change labels",
+              "haspopup": "listbox",
+              "value": "Labels"
+            },
+            {
+              "role": "textbox",
+              "name": "Project description",
+              "multiline": true,
+              "value": "\n"
+            },
+            {
+              "role": "button",
+              "name": "Milestones"
+            },
+            {
+              "role": "button",
+              "name": "Add"
+            }
+          ]
+        },
+        {
+          "role": "button",
+          "name": "Discard"
+        },
+        {
+          "role": "button",
+          "name": "Create project"
+        }
+      ]
+    }
+  ]
+}

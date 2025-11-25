@@ -1,0 +1,160 @@
+{
+  "role": "WebArea",
+  "name": "Online Notepad - Take Notes and Share Notes Online",
+  "children": [
+    {
+      "role": "link",
+      "name": "aNotepad aNotepad",
+      "description": "Online Notepad"
+    },
+    {
+      "role": "text",
+      "name": "- free online notepad"
+    },
+    {
+      "role": "link",
+      "name": "\uf4d0Workspace"
+    },
+    {
+      "role": "link",
+      "name": "\uf1beRegister/Login"
+    },
+    {
+      "role": "link",
+      "name": "\uf3ee"
+    },
+    {
+      "role": "textbox",
+      "name": "Note Title",
+      "focused": true
+    },
+    {
+      "role": "button",
+      "name": "\uf72eNew Note",
+      "haspopup": "menu"
+    },
+    {
+      "role": "link",
+      "name": "\uf358Import Docs"
+    },
+    {
+      "role": "link",
+      "name": "\uf52eShare"
+    },
+    {
+      "role": "textbox",
+      "name": "Note Content",
+      "multiline": true
+    },
+    {
+      "role": "button",
+      "name": "Save"
+    },
+    {
+      "role": "text",
+      "name": " \u00a0 "
+    },
+    {
+      "role": "text",
+      "name": "\uf600"
+    },
+    {
+      "role": "text",
+      "name": "Public Note ("
+    },
+    {
+      "role": "link",
+      "name": "Register"
+    },
+    {
+      "role": "text",
+      "name": " for private notes)"
+    },
+    {
+      "role": "text",
+      "name": "My Saved Notes"
+    },
+    {
+      "role": "button",
+      "name": "\uf571Sort by Title",
+      "description": "Sort Alphabetically"
+    },
+    {
+      "role": "button",
+      "name": "\uf575Sort by Updated",
+      "description": "Most Recent First"
+    },
+    {
+      "role": "link",
+      "name": "Download on the Apple Store"
+    },
+    {
+      "role": "text",
+      "name": " \u00a0 "
+    },
+    {
+      "role": "link",
+      "name": "Get it on Google Play"
+    },
+    {
+      "role": "text",
+      "name": "\u00a9 2009-2025 aNotepad.com"
+    },
+    {
+      "role": "link",
+      "name": "\uf431About"
+    },
+    {
+      "role": "link",
+      "name": "\uf538Privacy"
+    },
+    {
+      "role": "link",
+      "name": "\uf473Features"
+    },
+    {
+      "role": "link",
+      "name": "\uf379Resume Builder"
+    },
+    {
+      "role": "link",
+      "name": "\uf501Free Fax"
+    },
+    {
+      "role": "link",
+      "name": "\uf33bReport Abuse"
+    },
+    {
+      "role": "text",
+      "name": "aNotepad.com is your everyday online notepad. You can take notes and share notes online without having to login."
+    },
+    {
+      "role": "LineBreak",
+      "name": "\n"
+    },
+    {
+      "role": "text",
+      "name": "You can use a rich text editor and download your note as PDF or Word document."
+    },
+    {
+      "role": "LineBreak",
+      "name": "\n"
+    },
+    {
+      "role": "text",
+      "name": "Best of all - aNotepad is a fast, clean, and easy-to-use notepad online."
+    },
+    {
+      "role": "LineBreak",
+      "name": "\n"
+    },
+    {
+      "role": "LineBreak",
+      "name": "\n"
+    },
+    {
+      "role": "text",
+      "name": "\u00a0"
+    }
+  ]
+}

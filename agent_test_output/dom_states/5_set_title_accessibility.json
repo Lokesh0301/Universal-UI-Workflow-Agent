@@ -185,6 +185,26 @@
         },
         {
           "role": "treeitem",
+          "name": "New page",
+          "level": 1,
+          "children": [
+            {
+              "role": "button",
+              "name": "Open",
+              "description": "New page"
+            },
+            {
+              "role": "button",
+              "name": "Delete, duplicate, and more\u2026"
+            },
+            {
+              "role": "button",
+              "name": "Add a page inside"
+            }
+          ]
+        },
+        {
+          "role": "treeitem",
           "name": "Welcome to Notion!",
           "level": 1,
           "children": [
@@ -340,16 +360,6 @@
       "role": "button",
       "name": "ai",
       "haspopup": "dialog"
-    },
-    {
-      "role": "button",
-      "name": "Notion Mail promotional image Close promotional tooltip for calendar or mail app buttons Open Notion Mail The self-organizing inbox, with everything you love about Notion",
-      "children": [
-        {
-          "role": "button",
-          "name": "Close promotional tooltip for calendar or mail app buttons"
-        }
-      ]
     }
   ]
 }

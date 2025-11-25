@@ -1,0 +1,830 @@
+{
+  "role": "WebArea",
+  "name": "Linear \u2013 Plan and build products",
+  "children": [
+    {
+      "role": "region",
+      "name": "Notifications alt+T"
+    },
+    {
+      "role": "link",
+      "name": "Skip to content \u2192"
+    },
+    {
+      "role": "link",
+      "name": "Navigate to home"
+    },
+    {
+      "role": "link",
+      "name": "Product"
+    },
+    {
+      "role": "link",
+      "name": "Resources"
+    },
+    {
+      "role": "link",
+      "name": "Pricing"
+    },
+    {
+      "role": "link",
+      "name": "Customers"
+    },
+    {
+      "role": "link",
+      "name": "Now"
+    },
+    {
+      "role": "link",
+      "name": "Contact"
+    },
+    {
+      "role": "link",
+      "name": "Log in"
+    },
+    {
+      "role": "link",
+      "name": "Sign up"
+    },
+    {
+      "role": "heading",
+      "name": "Linear is a purpose-built tool for planning and building products",
+      "level": 1
+    },
+    {
+      "role": "text",
+      "name": "Meet the system for modern software development. Streamline issues, projects, and product roadmaps."
+    },
+    {
+      "role": "link",
+      "name": "Start building"
+    },
+    {
+      "role": "link",
+      "name": "New: Linear agent for Slack"
+    },
+    {
+      "role": "text",
+      "name": "Powering the world\u2019s best product teams."
+    },
+    {
+      "role": "text",
+      "name": "From next-gen startups to established enterprises."
+    },
+    {
+      "role": "link",
+      "name": "Meet our customers"
+    },
+    {
+      "role": "heading",
+      "name": "Made for modern product teams",
+      "level": 2
+    },
+    {
+      "role": "text",
+      "name": "Linear is shaped by the practices and principles that distinguish world-class product teams from the rest: relentless focus, fast execution, and a commitment to the quality of craft."
+    },
+    {
+      "role": "link",
+      "name": "Make the switch"
+    },
+    {
+      "role": "button",
+      "name": "Purpose-built for product development",
+      "haspopup": "dialog"
+    },
+    {
+      "role": "button",
+      "name": "Designed to move fast",
+      "haspopup": "dialog"
+    },
+    {
+      "role": "button",
+      "name": "Crafted to perfection",
+      "haspopup": "dialog"
+    },
+    {
+      "role": "link",
+      "name": "Artificial intelligence AI-assisted product development"
+    },
+    {
+      "role": "text",
+      "name": "Linear for Agents."
+    },
+    {
+      "role": "text",
+      "name": " Choose from a variety of AI agents and start delegating work, from code generation to other technical tasks."
+    },
+    {
+      "role": "link",
+      "name": "Visit Linear Agents page"
+    },
+    {
+      "role": "textbox",
+      "name": "Assign to\u2026"
+    },
+    {
+      "role": "image",
+      "name": "Profile picture of Cursor"
+    },
+    {
+      "role": "text",
+      "name": "Cursor"
+    },
+    {
+      "role": "text",
+      "name": "Agent"
+    },
+    {
+      "role": "image",
+      "name": "Profile picture of Cursor"
+    },
+    {
+      "role": "text",
+      "name": "Cursor"
+    },
+    {
+      "role": "text",
+      "name": "Agent"
+    },
+    {
+      "role": "image",
+      "name": "Profile picture of GitHub Copilot"
+    },
+    {
+      "role": "text",
+      "name": "GitHub Copilot"
+    },
+    {
+      "role": "text",
+      "name": "Agent"
+    },
+    {
+      "role": "image",
+      "name": "Profile picture of Sentry"
+    },
+    {
+      "role": "text",
+      "name": "Sentry"
+    },
+    {
+      "role": "text",
+      "name": "Agent"
+    },
+    {
+      "role": "image",
+      "name": "Profile picture of Leela"
+    },
+    {
+      "role": "text",
+      "name": "Leela"
+    },
+    {
+      "role": "image",
+      "name": "Profile picture of Devin"
+    },
+    {
+      "role": "text",
+      "name": "Devin"
+    },
+    {
+      "role": "text",
+      "name": "Agent"
+    },
+    {
+      "role": "image",
+      "name": "Profile picture of Conor"
+    },
+    {
+      "role": "text",
+      "name": "Conor"
+    },
+    {
+      "role": "heading",
+      "name": "Self-driving product operations",
+      "level": 3
+    },
+    {
+      "role": "text",
+      "name": "Streamline your product development workflows with AI assistance for routine, manual tasks."
+    },
+    {
+      "role": "text",
+      "name": "Triage Intelligence"
+    },
+    {
+      "role": "text",
+      "name": "Suggestions"
+    },
+    {
+      "role": "button",
+      "name": "Avatar of Nan nan"
+    },
+    {
+      "role": "button",
+      "name": "Mobile App Refactor"
+    },
+    {
+      "role": "button",
+      "name": "Slack"
+    },
+    {
+      "role": "text",
+      "name": "Duplicate of"
+    },
+    {
+      "role": "text",
+      "name": "ENG-1419"
+    },
+    {
+      "role": "text",
+      "name": "Loading spinner keeps running on startup"
+    },
+    {
+      "role": "text",
+      "name": "Related to"
+    },
+    {
+      "role": "text",
+      "name": "ENG-1820"
+    },
+    {
+      "role": "text",
+      "name": "Mobile app takes a long time to open"
+    },
+    {
+      "role": "image",
+      "name": "Avatar of Nan"
+    },
+    {
+      "role": "text",
+      "name": "nan"
+    },
+    {
+      "role": "text",
+      "name": "Why this assignee was suggested"
+    },
+    {
+      "role": "text",
+      "name": "This person was the assignee on previous issues related to performance problems in the mobile app launch flow"
+    },
+    {
+      "role": "text",
+      "name": "Alternatives"
+    },
+    {
+      "role": "button",
+      "name": "Avatar of Nan yann"
+    },
+    {
+      "role": "button",
+      "name": "Avatar of Nan erin"
+    },
+    {
+      "role": "text",
+      "name": "Mobile App Refactor"
+    },
+    {
+      "role": "text",
+      "name": "Optimize mobile app performance"
+    },
+    {
+      "role": "text",
+      "name": "In Progress"
+    },
+    {
+      "role": "image",
+      "name": "Medium Priority"
+    },
+    {
+      "role": "text",
+      "name": "Medium"
+    },
+    {
+      "role": "text",
+      "name": "Why this project was suggested"
+    },
+    {
+      "role": "text",
+      "name": "The current issue seems to be a mobile app related bug that would fit well within the scope of this project."
+    },
+    {
+      "role": "text",
+      "name": "Issue Type"
+    },
+    {
+      "role": "text",
+      "name": "Bug"
+    },
+    {
+      "role": "text",
+      "name": "Why this label was suggested"
+    },
+    {
+      "role": "text",
+      "name": "This appears to be a bug in the mobile app"
+    },
+    {
+      "role": "text",
+      "name": "A similar issue"
+    },
+    {
+      "role": "text",
+      "name": "ENG-2029 "
+    },
+    {
+      "role": "text",
+      "name": "iOS app"
+    },
+    {
+      "role": "text",
+      "name": "keeps freezing"
+    },
+    {
+      "role": "text",
+      "name": "is also labeled as Bug"
+    },
+    {
+      "role": "button",
+      "name": "Accept suggestion"
+    },
+    {
+      "role": "heading",
+      "name": "Linear MCP",
+      "level": 3
+    },
+    {
+      "role": "text",
+      "name": "Connect Linear to your favorite tools including Cursor, Claude, ChatGPT, and more."
+    },
+    {
+      "role": "link",
+      "name": "Project and long-term planning Set the product direction"
+    },
+    {
+      "role": "text",
+      "name": "Align your team around a unified product timeline."
+    },
+    {
+      "role": "text",
+      "name": " Plan, manage, and track all product initiatives with Linear\u2019s visual planning tools."
+    },
+    {
+      "role": "image",
+      "name": "A screenshot of a roadmap view in Linear showing two projects that are currently in progress"
+    },
+    {
+      "role": "heading",
+      "name": "Manage projects end-to-end",
+      "level": 3
+    },
+    {
+      "role": "text",
+      "name": "Consolidate specs, milestones, tasks, and other documentation in one centralized location."
+    },
+    {
+      "role": "heading",
+      "name": "Project updates",
+      "level": 3
+    },
+    {
+      "role": "text",
+      "name": "Communicate progress and project health with built-in project updates."
+    },
+    {
+      "role": "heading",
+      "name": "Ideate and specify what to build next",
+      "level": 3
+    },
+    {
+      "role": "group",
+      "name": "",
+      "children": [
+        {
+          "role": "radio",
+          "name": "Collaborative documents",
+          "checked": true
+        },
+        {
+          "role": "radio",
+          "name": "Inline comments",
+          "checked": false
+        },
+        {
+          "role": "radio",
+          "name": "Text-to-issue commands",
+          "checked": false
+        }
+      ]
+    },
+    {
+      "role": "heading",
+      "name": "Initiatives",
+      "level": 4
+    },
+    {
+      "role": "text",
+      "name": "Coordinate strategic product efforts."
+    },
+    {
+      "role": "heading",
+      "name": "Cross-team projects",
+      "level": 4
+    },
+    {
+      "role": "text",
+      "name": "Collaborate across teams and departments."
+    },
+    {
+      "role": "heading",
+      "name": "Milestones",
+      "level": 4
+    },
+    {
+      "role": "text",
+      "name": "Break projects down into concrete phases."
+    },
+    {
+      "role": "heading",
+      "name": "Progress insights",
+      "level": 4
+    },
+    {
+      "role": "text",
+      "name": "Track scope, velocity, and progress over time."
+    },
+    {
+      "role": "link",
+      "name": "Task tracking and sprint planning Issue tracking you\u2019ll enjoy using"
+    },
+    {
+      "role": "text",
+      "name": "Optimized for speed and efficiency."
+    },
+    {
+      "role": "text",
+      "name": " Create tasks in seconds, discuss issues in context, and breeze through your work in views tailored to you and your team."
+    },
+    {
+      "role": "image",
+      "name": "A screenshot of an issue board view in Linear showing three high-priority tasks"
+    },
+    {
+      "role": "heading",
+      "name": "Build momentum with Cycles",
+      "level": 3
+    },
+    {
+      "role": "text",
+      "name": "Create healthy routines and focus your team on what work should happen next."
+    },
+    {
+      "role": "heading",
+      "name": "Manage incoming work with Triage",
+      "level": 3
+    },
+    {
+      "role": "text",
+      "name": "Review and assign incoming bug reports, feature requests, and other unplanned work."
+    },
+    {
+      "role": "text",
+      "name": "Accept"
+    },
+    {
+      "role": "text",
+      "name": "Mark as duplicate"
+    },
+    {
+      "role": "text",
+      "name": "Decline"
+    },
+    {
+      "role": "heading",
+      "name": "Linear Insights",
+      "level": 3
+    },
+    {
+      "role": "text",
+      "name": "Take the guesswork out of product planning with realtime analytics and reporting dashboards."
+    },
+    {
+      "role": "link",
+      "name": "Visit Linear Insights page"
+    },
+    {
+      "role": "image",
+      "name": "A screenshot of a Cycle time chart"
+    },
+    {
+      "role": "heading",
+      "name": "Tailored workflows",
+      "level": 4
+    },
+    {
+      "role": "text",
+      "name": "Track progress across custom issue flows for your team."
+    },
+    {
+      "role": "heading",
+      "name": "Custom views",
+      "level": 4
+    },
+    {
+      "role": "text",
+      "name": "Switch between list and board. Group issues with swimlanes."
+    },
+    {
+      "role": "heading",
+      "name": "Filters",
+      "level": 4
+    },
+    {
+      "role": "text",
+      "name": "Refine issue lists down to what\u2019s most relevant to you."
+    },
+    {
+      "role": "heading",
+      "name": "SLAs",
+      "level": 4
+    },
+    {
+      "role": "text",
+      "name": "Automatically apply deadlines to time-sensitive tasks."
+    },
+    {
+      "role": "text",
+      "name": "Workflows and integrations"
+    },
+    {
+      "role": "heading",
+      "name": "Collaborate across tools and teams",
+      "level": 2
+    },
+    {
+      "role": "text",
+      "name": "Expand the capabilities of the Linear system with a wide variety of integrations that keep everyone in your organization aligned and focused."
+    },
+    {
+      "role": "link",
+      "name": "Customer Requests Build what customers actually want"
+    },
+    {
+      "role": "button",
+      "name": "Powerful git workflows Automate pull requests and commit workflows",
+      "haspopup": "dialog"
+    },
+    {
+      "role": "link",
+      "name": "Linear Mobile Move product work forward from anywhere"
+    },
+    {
+      "role": "link",
+      "name": "Linear Asks Turn workplace requests into actionable issues"
+    },
+    {
+      "role": "link",
+      "name": "Linear integrations 100+ ways to enhance your Linear experience"
+    },
+    {
+      "role": "link",
+      "name": "Figma integration Bridge the gap between engineering and design"
+    },
+    {
+      "role": "link",
+      "name": "Built for developers Build your own add-ons with the Linear API"
+    },
+    {
+      "role": "button",
+      "name": "Previous slide",
+      "disabled": true
+    },
+    {
+      "role": "button",
+      "name": "Next slide"
+    },
+    {
+      "role": "text",
+      "name": "Under the hood"
+    },
+    {
+      "role": "heading",
+      "name": "Built on strong foundations",
+      "level": 2
+    },
+    {
+      "role": "text",
+      "name": "Linear is so simple to use, it\u2019s easy to overlook the wealth of complex technologies packed under the hood that keep Linear robust, safe, and blazing fast."
+    },
+    {
+      "role": "text",
+      "name": "Linear Sync Engine"
+    },
+    {
+      "role": "text",
+      "name": "Built with a high-performance architecture and an obsessive focus on speed."
+    },
+    {
+      "role": "link",
+      "name": "Enterprise-ready security"
+    },
+    {
+      "role": "text",
+      "name": "Best-in-class security practices keep your work safe and secure at every layer."
+    },
+    {
+      "role": "text",
+      "name": "Engineered for scale"
+    },
+    {
+      "role": "text",
+      "name": "Built for teams of all sizes. From early-stage startups to global enterprises."
+    },
+    {
+      "role": "text",
+      "name": "SOC 2"
+    },
+    {
+      "role": "text",
+      "name": "GDPR"
+    },
+    {
+      "role": "text",
+      "name": "HIPAA"
+    },
+    {
+      "role": "heading",
+      "name": "Plan the present. Build the future.",
+      "level": 3
+    },
+    {
+      "role": "link",
+      "name": "Contact sales"
+    },
+    {
+      "role": "link",
+      "name": "Get started"
+    },
+    {
+      "role": "link",
+      "name": "Linear Logo"
+    },
+    {
+      "role": "heading",
+      "name": "Features",
+      "level": 3
+    },
+    {
+      "role": "link",
+      "name": "Plan"
+    },
+    {
+      "role": "link",
+      "name": "Build"
+    },
+    {
+      "role": "link",
+      "name": "Insights"
+    },
+    {
+      "role": "link",
+      "name": "Customer Requests"
+    },
+    {
+      "role": "link",
+      "name": "Linear Asks"
+    },
+    {
+      "role": "link",
+      "name": "Security"
+    },
+    {
+      "role": "link",
+      "name": "Mobile"
+    },
+    {
+      "role": "heading",
+      "name": "Product",
+      "level": 3
+    },
+    {
+      "role": "link",
+      "name": "Pricing"
+    },
+    {
+      "role": "link",
+      "name": "Method"
+    },
+    {
+      "role": "link",
+      "name": "Integrations"
+    },
+    {
+      "role": "link",
+      "name": "Changelog"
+    },
+    {
+      "role": "link",
+      "name": "Documentation"
+    },
+    {
+      "role": "link",
+      "name": "Download"
+    },
+    {
+      "role": "link",
+      "name": "Switch"
+    },
+    {
+      "role": "heading",
+      "name": "Company",
+      "level": 3
+    },
+    {
+      "role": "link",
+      "name": "About"
+    },
+    {
+      "role": "link",
+      "name": "Customers"
+    },
+    {
+      "role": "link",
+      "name": "Careers"
+    },
+    {
+      "role": "link",
+      "name": "Now"
+    },
+    {
+      "role": "link",
+      "name": "README"
+    },
+    {
+      "role": "link",
+      "name": "Quality"
+    },
+    {
+      "role": "link",
+      "name": "Brand"
+    },
+    {
+      "role": "heading",
+      "name": "Resources",
+      "level": 3
+    },
+    {
+      "role": "link",
+      "name": "Developers"
+    },
+    {
+      "role": "link",
+      "name": "Status"
+    },
+    {
+      "role": "link",
+      "name": "Startups"
+    },
+    {
+      "role": "link",
+      "name": "Report vulnerability"
+    },
+    {
+      "role": "link",
+      "name": "DPA"
+    },
+    {
+      "role": "link",
+      "name": "Privacy"
+    },
+    {
+      "role": "link",
+      "name": "Terms"
+    },
+    {
+      "role": "heading",
+      "name": "Connect",
+      "level": 3
+    },
+    {
+      "role": "link",
+      "name": "Contact us"
+    },
+    {
+      "role": "link",
+      "name": "Community"
+    },
+    {
+      "role": "link",
+      "name": "X (Twitter)"
+    },
+    {
+      "role": "link",
+      "name": "GitHub"
+    },
+    {
+      "role": "link",
+      "name": "YouTube"
+    }
+  ]
+}

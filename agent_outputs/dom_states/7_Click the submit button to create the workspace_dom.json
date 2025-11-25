@@ -1,0 +1,102 @@
+[
+  {
+    "tag": "input",
+    "text": "",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "input#name"
+  },
+  {
+    "tag": "input",
+    "text": "",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "input#urlKey"
+  },
+  {
+    "tag": "button",
+    "text": "United States",
+    "aria": null,
+    "role": "combobox",
+    "placeholder": null,
+    "href": null,
+    "type": "button",
+    "selector": "button#workspaceRegion"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg"
+  },
+  {
+    "tag": "select",
+    "text": "United States\nEuropean Union",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "select"
+  },
+  {
+    "tag": "button",
+    "text": "",
+    "aria": "Change region",
+    "role": null,
+    "placeholder": null,
+    "href": null,
+    "type": "button",
+    "selector": "button[aria-label=\"Change region\"]"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg"
+  },
+  {
+    "tag": "button",
+    "text": "Create workspace",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": null,
+    "type": "button",
+    "selector": "button.sc-cpSJdf.leCqlN"
+  },
+  {
+    "tag": "button",
+    "text": "Logged in as\nfriendscoloradotrip@gmail.com",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "button.sc-jCttAn.sc-efzHOL"
+  },
+  {
+    "tag": "button",
+    "text": "Log out",
+    "aria": "Log out",
+    "role": null,
+    "placeholder": null,
+    "href": null,
+    "type": "button",
+    "selector": "button[aria-label=\"Log out\"]"
+  }
+]

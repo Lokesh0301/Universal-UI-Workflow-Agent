@@ -185,6 +185,26 @@
         },
         {
           "role": "treeitem",
+          "name": "New page",
+          "level": 1,
+          "children": [
+            {
+              "role": "button",
+              "name": "Open",
+              "description": "New page"
+            },
+            {
+              "role": "button",
+              "name": "Delete, duplicate, and more\u2026"
+            },
+            {
+              "role": "button",
+              "name": "Add a page inside"
+            }
+          ]
+        },
+        {
+          "role": "treeitem",
           "name": "Welcome to Notion!",
           "level": 1,
           "children": [
