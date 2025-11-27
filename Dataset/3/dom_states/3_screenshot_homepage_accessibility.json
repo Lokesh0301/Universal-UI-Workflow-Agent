@@ -1,0 +1,420 @@
+{
+  "role": "WebArea",
+  "name": "Lokesh Madem \u203a Active issues",
+  "children": [
+    {
+      "role": "Audio",
+      "name": "Unable to play media.",
+      "disabled": true,
+      "children": [
+        {
+          "role": "button",
+          "name": "play",
+          "disabled": true
+        },
+        {
+          "role": "slider",
+          "name": "audio time scrubber",
+          "description": "total time: 0:00",
+          "valuetext": "elapsed time: 0:00",
+          "disabled": true,
+          "valuemin": 0,
+          "valuemax": 100,
+          "orientation": "horizontal",
+          "value": 0
+        },
+        {
+          "role": "button",
+          "name": "mute",
+          "disabled": true
+        },
+        {
+          "role": "button",
+          "name": "show more media controls",
+          "description": "more options",
+          "haspopup": "menu"
+        }
+      ]
+    },
+    {
+      "role": "link",
+      "name": "Skip to content"
+    },
+    {
+      "role": "button",
+      "name": "Lokesh Madem Workspace Menu",
+      "haspopup": "menu"
+    },
+    {
+      "role": "button",
+      "name": "Search workspace"
+    },
+    {
+      "role": "button",
+      "name": "Create new issue"
+    },
+    {
+      "role": "generic",
+      "name": "",
+      "children": [
+        {
+          "role": "button",
+          "name": "Inbox",
+          "roledescription": "sortable",
+          "children": [
+            {
+              "role": "link",
+              "name": "Inbox"
+            }
+          ]
+        },
+        {
+          "role": "button",
+          "name": "My issues",
+          "roledescription": "sortable",
+          "children": [
+            {
+              "role": "link",
+              "name": "My issues"
+            }
+          ]
+        },
+        {
+          "role": "button",
+          "name": "",
+          "roledescription": "sortable"
+        },
+        {
+          "role": "button",
+          "name": "Workspace",
+          "expanded": true
+        },
+        {
+          "role": "button",
+          "name": "Projects",
+          "roledescription": "sortable",
+          "children": [
+            {
+              "role": "link",
+              "name": "Projects"
+            }
+          ]
+        },
+        {
+          "role": "button",
+          "name": "Views",
+          "roledescription": "sortable",
+          "children": [
+            {
+              "role": "link",
+              "name": "Views"
+            }
+          ]
+        },
+        {
+          "role": "button",
+          "name": "",
+          "roledescription": "sortable"
+        },
+        {
+          "role": "button",
+          "name": "",
+          "roledescription": "sortable"
+        },
+        {
+          "role": "button",
+          "name": "Show more workspace links"
+        },
+        {
+          "role": "button",
+          "name": "Your teams",
+          "expanded": true
+        },
+        {
+          "role": "button",
+          "name": "Lokesh Madem Issues Projects Views",
+          "roledescription": "sortable",
+          "children": [
+            {
+              "role": "button",
+              "name": "Lokesh Madem Team menu",
+              "expanded": true,
+              "children": [
+                {
+                  "role": "generic",
+                  "name": "Team menu"
+                }
+              ]
+            },
+            {
+              "role": "link",
+              "name": "Issues"
+            },
+            {
+              "role": "link",
+              "name": "Projects"
+            },
+            {
+              "role": "link",
+              "name": "Views"
+            }
+          ]
+        },
+        {
+          "role": "button",
+          "name": "Try",
+          "expanded": true
+        },
+        {
+          "role": "link",
+          "name": "Import issues"
+        },
+        {
+          "role": "button",
+          "name": "Dismiss"
+        },
+        {
+          "role": "generic",
+          "name": "",
+          "children": [
+            {
+              "role": "text",
+              "name": "Invite people"
+            }
+          ]
+        },
+        {
+          "role": "button",
+          "name": "Dismiss"
+        },
+        {
+          "role": "link",
+          "name": "Link GitHub"
+        },
+        {
+          "role": "button",
+          "name": "Dismiss"
+        }
+      ]
+    },
+    {
+      "role": "button",
+      "name": "Open Help menu",
+      "haspopup": "menu"
+    },
+    {
+      "role": "generic",
+      "name": "",
+      "children": [
+        {
+          "role": "link",
+          "name": "All issues"
+        }
+      ]
+    },
+    {
+      "role": "generic",
+      "name": "",
+      "children": [
+        {
+          "role": "link",
+          "name": "Active"
+        }
+      ]
+    },
+    {
+      "role": "generic",
+      "name": "",
+      "children": [
+        {
+          "role": "link",
+          "name": "Backlog"
+        }
+      ]
+    },
+    {
+      "role": "button",
+      "name": "Add new view"
+    },
+    {
+      "role": "button",
+      "name": "Setup active issues notifications"
+    },
+    {
+      "role": "button",
+      "name": "Open details"
+    },
+    {
+      "role": "button",
+      "name": "Add filter"
+    },
+    {
+      "role": "button",
+      "name": "Display options"
+    },
+    {
+      "role": "button",
+      "name": "Collapse group"
+    },
+    {
+      "role": "text",
+      "name": "Todo"
+    },
+    {
+      "role": "button",
+      "name": "4"
+    },
+    {
+      "role": "button",
+      "name": "Create new issue",
+      "haspopup": "menu"
+    },
+    {
+      "role": "link",
+      "name": "Select issue No Priority LOK-1 Get familiar with Linear (1) Created Nov 24, 10:06:39 PM",
+      "children": [
+        {
+          "role": "checkbox",
+          "name": "",
+          "checked": false
+        },
+        {
+          "role": "image",
+          "name": "No Priority"
+        },
+        {
+          "role": "text",
+          "name": "LOK-1"
+        },
+        {
+          "role": "text",
+          "name": "Get familiar with Linear (1)"
+        },
+        {
+          "role": "text",
+          "name": "Nov 24"
+        }
+      ]
+    },
+    {
+      "role": "link",
+      "name": "Select issue No Priority LOK-2 Set up your teams (2) Created Nov 24, 10:06:39 PM",
+      "children": [
+        {
+          "role": "checkbox",
+          "name": "",
+          "checked": false
+        },
+        {
+          "role": "image",
+          "name": "No Priority"
+        },
+        {
+          "role": "text",
+          "name": "LOK-2"
+        },
+        {
+          "role": "text",
+          "name": "Set up your teams (2)"
+        },
+        {
+          "role": "text",
+          "name": "Nov 24"
+        }
+      ]
+    },
+    {
+      "role": "link",
+      "name": "Select issue No Priority LOK-3 Connect your tools (3) Created Nov 24, 10:06:39 PM",
+      "children": [
+        {
+          "role": "checkbox",
+          "name": "",
+          "checked": false
+        },
+        {
+          "role": "image",
+          "name": "No Priority"
+        },
+        {
+          "role": "text",
+          "name": "LOK-3"
+        },
+        {
+          "role": "text",
+          "name": "Connect your tools (3)"
+        },
+        {
+          "role": "text",
+          "name": "Nov 24"
+        }
+      ]
+    },
+    {
+      "role": "link",
+      "name": "Select issue No Priority LOK-4 Import your data (4) Created Nov 24, 10:06:39 PM",
+      "children": [
+        {
+          "role": "checkbox",
+          "name": "",
+          "checked": false
+        },
+        {
+          "role": "image",
+          "name": "No Priority"
+        },
+        {
+          "role": "text",
+          "name": "LOK-4"
+        },
+        {
+          "role": "text",
+          "name": "Import your data (4)"
+        },
+        {
+          "role": "text",
+          "name": "Nov 24"
+        }
+      ]
+    },
+    {
+      "role": "region",
+      "name": "Notifications alt+T",
+      "children": [
+        {
+          "role": "list",
+          "name": "",
+          "children": [
+            {
+              "role": "listitem",
+              "name": "",
+              "level": 1,
+              "children": [
+                {
+                  "role": "text",
+                  "name": "Download Linear"
+                },
+                {
+                  "role": "button",
+                  "name": ""
+                },
+                {
+                  "role": "text",
+                  "name": "Available for macOS, Windows, iOS, and Android."
+                },
+                {
+                  "role": "link",
+                  "name": "Download"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "role": "generic",
+      "name": ""
+    }
+  ]
+}

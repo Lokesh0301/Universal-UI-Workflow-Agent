@@ -2,6 +2,11 @@ import json
 import asyncio
 from pathlib import Path
 from playwright.async_api import async_playwright
+import hashlib
+
+def dom_hash(dom: str):
+    """Returns a stable MD5 hash for DOM comparison."""
+    return hashlib.md5(dom.encode()).hexdigest()
 
 
 class StepExecutor:
@@ -105,33 +110,102 @@ class StepExecutor:
             with open(self.dom_dir / f"{idx+1}_{description}_accessibility.json", "w") as f:
                 json.dump(acc, f, indent=2)
 
-    # ---------------------------------------------
-    # SAFE HELPERS
-    # ---------------------------------------------
+        # ---------------------------------------------
+        # SAFE HELPERS
+        # ---------------------------------------------
     async def _safe_click(self, page, selector):
+        el = page.locator(selector).first
+
+        # 1. Try normal click after ensuring visibility & scroll
         try:
-            el = page.locator(selector).first
+            await el.wait_for(state="visible", timeout=3000)
             await el.scroll_into_view_if_needed()
-            await el.click(timeout=5000)
-        except:
-            await page.locator(selector).first.click(force=True)
+            await el.click()
+            return
+        except Exception as e:
+            print(f"[WARN] Normal click failed: {e}")
+
+        # 2. Force click
+        try:
+            print("[INFO] Trying force click...")
+            await el.scroll_into_view_if_needed()
+            await el.click(force=True)
+            return
+        except Exception as e:
+            print(f"[WARN] Force click failed: {e}")
+
+        # 3. Bounding box click (last resort — works for Linear modals)
+        try:
+            print("[INFO] Trying bounding-box click...")
+            box = await el.bounding_box()
+            if box:
+                await page.mouse.click(
+                    box["x"] + box["width"] / 2,
+                    box["y"] + box["height"] / 2
+                )
+                return
+        except Exception as e:
+            print(f"[WARN] Bounding-box click failed: {e}")
+
+        raise Exception(f"CLICK_FAILED: {selector}")
+
 
     async def _safe_fill(self, page, selector, value):
+        """
+        Robust fill that also works for contenteditable elements (e.g. Notion title).
+        """
+        # 1) Try normal fill on inputs/textareas
         try:
             await page.fill(selector, value)
-        except:
-            await page.click(selector)
-            await page.fill(selector, value)
+            return
+        except Exception:
+            pass
+
+        # 2) Fallback: click + keyboard typing (works for contenteditable)
+        await page.click(selector)
+        try:
+            # Try to clear existing text if possible
+            await page.keyboard.press("Control+A")
+            await page.keyboard.press("Backspace")
+        except Exception:
+            # If select-all fails (e.g. os/browser shortcut), just type over
+            pass
+
+        await page.keyboard.type(str(value), delay=40)
+
+
+    
+    async def auto_expand_ui(self, page):
+        """
+        Expand hidden UI menus to expose items like:
+        - 'More'
+        - collapsed menu buttons
+        - ARIA expanded elements
+        """
+
+        expanders = [
+            "button:has-text('More')",
+            "button[aria-expanded='false']",
+            "[aria-haspopup='menu']",
+            "[role='button'][aria-expanded='false']",
+            "button:has(svg)",   # many menu buttons in Linear/Notion use SVG icons
+        ]
+
+        for sel in expanders:
+            try:
+                locator = page.locator(sel).first
+                if await locator.count() > 0:
+                    await locator.scroll_into_view_if_needed()
+                    await locator.click(timeout=1200)
+                    await page.wait_for_timeout(200)
+            except:
+                pass
+
 
     # ---------------------------------------------
     # EXECUTE A SINGLE STEP (for agentic loops)
     # ---------------------------------------------
     async def execute_step(self, page, idx, step):
-        """
-        Executes a single step and returns:
-        (success, error_message, semantic_dom, accessibility_tree)
-        """
-
         action = step.get("action")
         selector = step.get("selector")
         value = step.get("value")
@@ -140,14 +214,17 @@ class StepExecutor:
         print(f"\n▶ SINGLE STEP {idx+1}: {json.dumps(step, indent=2)}")
 
         try:
-            # ---------------- Navigation ----------------
+            # ---------------- Capture PRE DOM ----------------
+            prev_dom = await page.content()
+            prev_hash = dom_hash(prev_dom)
+
+            # ---------------- Execute Action ----------------
             if action == "goto":
                 await page.goto(value, wait_until="domcontentloaded")
 
             elif action == "wait_for_navigation":
                 await page.wait_for_load_state("networkidle")
 
-            # ---------------- Clicking ----------------
             elif action == "click":
                 await self._safe_click(page, selector)
 
@@ -157,7 +234,6 @@ class StepExecutor:
             elif action == "right_click":
                 await page.click(selector, button="right")
 
-            # ---------------- Typing ----------------
             elif action == "type":
                 await self._safe_fill(page, selector, value)
 
@@ -170,33 +246,27 @@ class StepExecutor:
             elif action == "press":
                 await page.press(selector, value)
 
-            # ---------------- Hover ----------------
             elif action == "hover":
                 await page.hover(selector)
 
-            # ---------------- Waiting ----------------
             elif action == "wait_for":
                 await page.wait_for_selector(selector)
 
             elif action == "wait":
                 await page.wait_for_timeout(value)
 
-            # ---------------- Scrolling ----------------
             elif action == "scroll_to":
                 await page.locator(selector).scroll_into_view_if_needed()
 
             elif action == "scroll_by":
                 await page.mouse.wheel(value.get("x", 0), value.get("y", 400))
 
-            # ---------------- Dropdowns ----------------
             elif action == "select_option":
                 await page.select_option(selector, value)
 
-            # ---------------- File Upload ----------------
             elif action == "upload_file":
                 await page.set_input_files(selector, value)
 
-            # ---------------- Title Handler ----------------
             elif action == "set_title":
                 el = page.locator(selector).first
                 await el.click()
@@ -204,7 +274,6 @@ class StepExecutor:
                 await page.keyboard.press("Backspace")
                 await page.keyboard.type(value, delay=40)
 
-            # ---------------- iFrames ----------------
             elif action == "frame_click":
                 frame = page.frame(name=step["frame_name"])
                 await frame.click(selector)
@@ -213,22 +282,44 @@ class StepExecutor:
                 frame = page.frame(name=step["frame_name"])
                 await frame.fill(selector, value)
 
-            # ---------------- Screenshot ----------------
             elif action == "screenshot":
                 await self._save_state(page, idx, desc)
+                return True, None, await self._extract_semantic_dom(page), await self._extract_accessibility_tree(page)
 
             else:
                 raise Exception(f"Unknown action: {action}")
 
-            # -----------------------------------
-            # After ANY UI-changing action → save
-            # -----------------------------------
-            if action not in ["wait", "wait_for", "screenshot"]:
-                await self._save_state(page, idx, desc)
+            # ---------------- Capture POST DOM ----------------
+            post_dom = await page.content()
+            post_hash = dom_hash(post_dom)
 
-            # Success → return state details
+            # Only some actions are *required* to change DOM.
+            # Clicks can trigger network calls or state changes without big DOM diffs,
+            # so we don't enforce DOM change for them.
+            actions_requiring_dom_change = [
+                "goto",
+                "select_option",
+                "upload_file",
+                "set_title",
+                "frame_click",
+                "frame_type",
+                "scroll_to",
+                "scroll_by",
+            ]
+
+            # ---------------- Check for DOM Change ----------------
+            if action in actions_requiring_dom_change:
+                if prev_hash == post_hash:
+                    raise Exception(f"DOM_NOT_CHANGED_AFTER_{action.upper()}")
+
+
+            # ---------------- Store State ----------------
+
+            await self._save_state(page, idx, desc)
+
             semantic_dom = await self._extract_semantic_dom(page)
             accessibility_tree = await self._extract_accessibility_tree(page)
+
             return True, None, semantic_dom, accessibility_tree
 
         except Exception as e:
@@ -239,6 +330,7 @@ class StepExecutor:
             accessibility_tree = await self._extract_accessibility_tree(page)
 
             return False, error_msg, semantic_dom, accessibility_tree
+
 
 
     # ---------------------------------------------
@@ -259,6 +351,12 @@ class StepExecutor:
                 print(f"\n▶ STEP {idx+1}: {json.dumps(step, indent=2)}")
 
                 try:
+                    # -------- PRE DOM --------
+                    prev_dom = await page.content()
+                    prev_hash = dom_hash(prev_dom)
+
+                    # -------- Execute Action --------
+
                     # ---------------- Navigation ----------------
                     if action == "goto":
                         await page.goto(value, wait_until="domcontentloaded")
@@ -339,10 +437,31 @@ class StepExecutor:
 
                     else:
                         print("⚠ Unknown action:", action)
+                
+                    # -------- POST DOM --------
+                    post_dom = await page.content()
+                    post_hash = dom_hash(post_dom)
+
+                    # Keep DOM-change requirement consistent with execute_step
+                    actions_requiring_dom_change = [
+                        "goto",
+                        "select_option",
+                        "upload_file",
+                        "set_title",
+                        "frame_click",
+                        "frame_type",
+                        "scroll_to",
+                        "scroll_by",
+                    ]
+
+                    if action in actions_requiring_dom_change:
+                        if prev_hash == post_hash:
+                            raise Exception(f"DOM_NOT_CHANGED_AFTER_{action.upper()}")
 
                     # ---------------- Auto-save state ----------------
                     if action not in ["wait", "wait_for"]:
                         await self._save_state(page, idx, desc)
+
 
                 except Exception as e:
                     print(f"❌ Error executing step {idx+1}: {e}")

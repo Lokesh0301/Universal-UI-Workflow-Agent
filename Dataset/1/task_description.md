@@ -1,0 +1,1 @@
+In this task, the agent navigates the Linear web application and performs the complete workflow of creating a new issue. The agent first opens Linear and loads the workspace’s Issues view. It then triggers the New Issue modal (a non-URL UI state), enters the issue title “testz”, and fills in the description with “linear testing.” 

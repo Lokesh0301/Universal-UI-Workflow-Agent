@@ -13,7 +13,7 @@ with sync_playwright() as p:
 
     # Save cookies & local storage
     storage = context.storage_state()
-    with open("linear_state.json", "w") as f:
+    with open("saved_cookies/linear_state.json", "w") as f:
         json.dump(storage, f)
 
-    print("✅ Saved login session to linear_state.json")
+    print("✅ Saved login session to saved_cookies/linear_state.json")

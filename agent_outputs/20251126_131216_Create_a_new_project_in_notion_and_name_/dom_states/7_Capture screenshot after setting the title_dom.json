@@ -1,0 +1,1832 @@
+[
+  {
+    "tag": "a",
+    "text": "Skip to content",
+    "aria": null,
+    "role": "link",
+    "placeholder": null,
+    "href": "#main",
+    "type": null,
+    "selector": "a#skip-to-content"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "graphics-symbol",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg.arrowUTurnUpRightFill.directional-icon"
+  },
+  {
+    "tag": "div",
+    "text": "L\nLokesh\u2019s Space",
+    "aria": null,
+    "role": "button",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "div.notion-sidebar-switcher"
+  },
+  {
+    "tag": "div",
+    "text": "L",
+    "aria": "L ",
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "div[aria-label=\"L \"]"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "graphics-symbol",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg.arrowChevronSingleDown"
+  },
+  {
+    "tag": "div",
+    "text": "",
+    "aria": "Close sidebar",
+    "role": "button",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "div[aria-label=\"Close sidebar\"]"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "graphics-symbol",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg.arrowChevronDoubleBackward.directional-icon"
+  },
+  {
+    "tag": "div",
+    "text": "",
+    "aria": "New page",
+    "role": "button",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "div[aria-label=\"New page\"]"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "graphics-symbol",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg.compose"
+  },
+  {
+    "tag": "div",
+    "text": "",
+    "aria": "More options",
+    "role": "button",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "div[aria-label=\"More options\"]"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "graphics-symbol",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg.arrowChevronSingleDownSmall"
+  },
+  {
+    "tag": "div",
+    "text": "Search",
+    "aria": null,
+    "role": "button",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "div"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "graphics-symbol",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg.magnifyingGlass"
+  },
+  {
+    "tag": "a",
+    "text": "Home",
+    "aria": null,
+    "role": "link",
+    "placeholder": null,
+    "href": "/a73265c011754c7eadd7b3c51ae54349?pvs=16",
+    "type": null,
+    "selector": "a"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "graphics-symbol",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg.home"
+  },
+  {
+    "tag": "a",
+    "text": "Meetings",
+    "aria": null,
+    "role": "link",
+    "placeholder": null,
+    "href": "/meet",
+    "type": null,
+    "selector": "a"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "graphics-symbol",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg.paperMicrophone"
+  },
+  {
+    "tag": "a",
+    "text": "Notion AI",
+    "aria": null,
+    "role": "link",
+    "placeholder": null,
+    "href": "/ai",
+    "type": null,
+    "selector": "a[data-testid=\"sidebar-ai-button\"]"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "graphics-symbol",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg.aiFace"
+  },
+  {
+    "tag": "div",
+    "text": "Inbox",
+    "aria": null,
+    "role": "button",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "div"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "graphics-symbol",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg.inbox"
+  },
+  {
+    "tag": "div",
+    "text": "Private",
+    "aria": null,
+    "role": "button",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "div#:r3:"
+  },
+  {
+    "tag": "div",
+    "text": "",
+    "aria": "Open menu",
+    "role": "button",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "div[aria-label=\"Open menu\"]"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "graphics-symbol",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg.ellipsisSmall"
+  },
+  {
+    "tag": "div",
+    "text": "",
+    "aria": "Add a page",
+    "role": "button",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "div[aria-label=\"Add a page\"]"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "graphics-symbol",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg.plusSmall"
+  },
+  {
+    "tag": "div",
+    "text": "test-1\nProZ\nproject-b\nLokesh Madem\nLokesh\nLokesh\nNew page\nNew page\nNew page\nNew page",
+    "aria": null,
+    "role": "tree",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "div#:r2:"
+  },
+  {
+    "tag": "a",
+    "text": "test-1",
+    "aria": null,
+    "role": "treeitem",
+    "placeholder": null,
+    "href": "/test-1-2b7ce9c537f180aca8d9d39f3ac4b2cf?pvs=12",
+    "type": null,
+    "selector": "a"
+  },
+  {
+    "tag": "div",
+    "text": "",
+    "aria": "Open",
+    "role": "button",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "div[aria-label=\"Open\"]"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "graphics-symbol",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg.arrowChevronSingleDownFillSmall"
+  },
+  {
+    "tag": "span",
+    "text": "",
+    "aria": "Change page icon",
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "span[aria-label=\"Change page icon\"]"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "graphics-symbol",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg.pageEmpty"
+  },
+  {
+    "tag": "div",
+    "text": "",
+    "aria": "Delete, duplicate, and more\u2026",
+    "role": "button",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "div[aria-label=\"Delete, duplicate, and more\u2026\"]"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "graphics-symbol",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg.ellipsisSmall"
+  },
+  {
+    "tag": "div",
+    "text": "",
+    "aria": "Add a page inside",
+    "role": "button",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "div[aria-label=\"Add a page inside\"]"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "graphics-symbol",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg.plusSmall"
+  },
+  {
+    "tag": "a",
+    "text": "ProZ",
+    "aria": null,
+    "role": "treeitem",
+    "placeholder": null,
+    "href": "/ProZ-2b7ce9c537f180c983a3d63a78c623b7?pvs=12",
+    "type": null,
+    "selector": "a"
+  },
+  {
+    "tag": "div",
+    "text": "",
+    "aria": "Open",
+    "role": "button",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "div[aria-label=\"Open\"]"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "graphics-symbol",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg.arrowChevronSingleDownFillSmall"
+  },
+  {
+    "tag": "span",
+    "text": "",
+    "aria": "Change page icon",
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "span[aria-label=\"Change page icon\"]"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "graphics-symbol",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg.pageEmpty"
+  },
+  {
+    "tag": "div",
+    "text": "",
+    "aria": "Delete, duplicate, and more\u2026",
+    "role": "button",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "div[aria-label=\"Delete, duplicate, and more\u2026\"]"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "graphics-symbol",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg.ellipsisSmall"
+  },
+  {
+    "tag": "div",
+    "text": "",
+    "aria": "Add a page inside",
+    "role": "button",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "div[aria-label=\"Add a page inside\"]"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "graphics-symbol",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg.plusSmall"
+  },
+  {
+    "tag": "a",
+    "text": "project-b",
+    "aria": null,
+    "role": "treeitem",
+    "placeholder": null,
+    "href": "/project-b-2b6ce9c537f1808a99e0d25d49bb2a01?pvs=12",
+    "type": null,
+    "selector": "a"
+  },
+  {
+    "tag": "div",
+    "text": "",
+    "aria": "Open",
+    "role": "button",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "div[aria-label=\"Open\"]"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "graphics-symbol",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg.arrowChevronSingleDownFillSmall"
+  },
+  {
+    "tag": "span",
+    "text": "",
+    "aria": "Change page icon",
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "span[aria-label=\"Change page icon\"]"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "graphics-symbol",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg.page"
+  },
+  {
+    "tag": "div",
+    "text": "",
+    "aria": "Delete, duplicate, and more\u2026",
+    "role": "button",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "div[aria-label=\"Delete, duplicate, and more\u2026\"]"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "graphics-symbol",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg.ellipsisSmall"
+  },
+  {
+    "tag": "div",
+    "text": "",
+    "aria": "Add a page inside",
+    "role": "button",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "div[aria-label=\"Add a page inside\"]"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "graphics-symbol",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg.plusSmall"
+  },
+  {
+    "tag": "a",
+    "text": "Lokesh Madem",
+    "aria": null,
+    "role": "treeitem",
+    "placeholder": null,
+    "href": "/Lokesh-Madem-2b6ce9c537f18093bf69da4575ecb418?pvs=12",
+    "type": null,
+    "selector": "a"
+  },
+  {
+    "tag": "div",
+    "text": "",
+    "aria": "Open",
+    "role": "button",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "div[aria-label=\"Open\"]"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "graphics-symbol",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg.arrowChevronSingleDownFillSmall"
+  },
+  {
+    "tag": "span",
+    "text": "",
+    "aria": "Change page icon",
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "span[aria-label=\"Change page icon\"]"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "graphics-symbol",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg.pageEmpty"
+  },
+  {
+    "tag": "div",
+    "text": "",
+    "aria": "Delete, duplicate, and more\u2026",
+    "role": "button",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "div[aria-label=\"Delete, duplicate, and more\u2026\"]"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "graphics-symbol",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg.ellipsisSmall"
+  },
+  {
+    "tag": "div",
+    "text": "",
+    "aria": "Add a page inside",
+    "role": "button",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "div[aria-label=\"Add a page inside\"]"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "graphics-symbol",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg.plusSmall"
+  },
+  {
+    "tag": "a",
+    "text": "Lokesh",
+    "aria": null,
+    "role": "treeitem",
+    "placeholder": null,
+    "href": "/Lokesh-2b6ce9c537f180f8bddfe9f5a08cfeec?pvs=12",
+    "type": null,
+    "selector": "a"
+  },
+  {
+    "tag": "div",
+    "text": "",
+    "aria": "Open",
+    "role": "button",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "div[aria-label=\"Open\"]"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "graphics-symbol",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg.arrowChevronSingleDownFillSmall"
+  },
+  {
+    "tag": "span",
+    "text": "",
+    "aria": "Change page icon",
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "span[aria-label=\"Change page icon\"]"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "graphics-symbol",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg.pageEmpty"
+  },
+  {
+    "tag": "div",
+    "text": "",
+    "aria": "Delete, duplicate, and more\u2026",
+    "role": "button",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "div[aria-label=\"Delete, duplicate, and more\u2026\"]"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "graphics-symbol",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg.ellipsisSmall"
+  },
+  {
+    "tag": "div",
+    "text": "",
+    "aria": "Add a page inside",
+    "role": "button",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "div[aria-label=\"Add a page inside\"]"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "graphics-symbol",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg.plusSmall"
+  },
+  {
+    "tag": "a",
+    "text": "Lokesh",
+    "aria": null,
+    "role": "treeitem",
+    "placeholder": null,
+    "href": "/Lokesh-2b6ce9c537f180978c12fd0e91da148c?pvs=12",
+    "type": null,
+    "selector": "a"
+  },
+  {
+    "tag": "div",
+    "text": "",
+    "aria": "Open",
+    "role": "button",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "div[aria-label=\"Open\"]"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "graphics-symbol",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg.arrowChevronSingleDownFillSmall"
+  },
+  {
+    "tag": "span",
+    "text": "",
+    "aria": "Change page icon",
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "span[aria-label=\"Change page icon\"]"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "graphics-symbol",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg.pageEmpty"
+  },
+  {
+    "tag": "div",
+    "text": "",
+    "aria": "Delete, duplicate, and more\u2026",
+    "role": "button",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "div[aria-label=\"Delete, duplicate, and more\u2026\"]"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "graphics-symbol",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg.ellipsisSmall"
+  },
+  {
+    "tag": "div",
+    "text": "",
+    "aria": "Add a page inside",
+    "role": "button",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "div[aria-label=\"Add a page inside\"]"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "graphics-symbol",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg.plusSmall"
+  },
+  {
+    "tag": "a",
+    "text": "New page",
+    "aria": null,
+    "role": "treeitem",
+    "placeholder": null,
+    "href": "/2b6ce9c537f1805c9419f7f7f493201e?pvs=12",
+    "type": null,
+    "selector": "a"
+  },
+  {
+    "tag": "div",
+    "text": "",
+    "aria": "Open",
+    "role": "button",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "div[aria-label=\"Open\"]"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "graphics-symbol",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg.arrowChevronSingleDownFillSmall"
+  },
+  {
+    "tag": "span",
+    "text": "",
+    "aria": "Change page icon",
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "span[aria-label=\"Change page icon\"]"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "graphics-symbol",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg.pageEmpty"
+  },
+  {
+    "tag": "div",
+    "text": "",
+    "aria": "Delete, duplicate, and more\u2026",
+    "role": "button",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "div[aria-label=\"Delete, duplicate, and more\u2026\"]"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "graphics-symbol",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg.ellipsisSmall"
+  },
+  {
+    "tag": "div",
+    "text": "",
+    "aria": "Add a page inside",
+    "role": "button",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "div[aria-label=\"Add a page inside\"]"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "graphics-symbol",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg.plusSmall"
+  },
+  {
+    "tag": "a",
+    "text": "New page",
+    "aria": null,
+    "role": "treeitem",
+    "placeholder": null,
+    "href": "/2b6ce9c537f18079baf4d2c1f87bca4e?pvs=12",
+    "type": null,
+    "selector": "a"
+  },
+  {
+    "tag": "div",
+    "text": "",
+    "aria": "Open",
+    "role": "button",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "div[aria-label=\"Open\"]"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "graphics-symbol",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg.arrowChevronSingleDownFillSmall"
+  },
+  {
+    "tag": "span",
+    "text": "",
+    "aria": "Change page icon",
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "span[aria-label=\"Change page icon\"]"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "graphics-symbol",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg.pageEmpty"
+  },
+  {
+    "tag": "div",
+    "text": "",
+    "aria": "Delete, duplicate, and more\u2026",
+    "role": "button",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "div[aria-label=\"Delete, duplicate, and more\u2026\"]"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "graphics-symbol",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg.ellipsisSmall"
+  },
+  {
+    "tag": "div",
+    "text": "",
+    "aria": "Add a page inside",
+    "role": "button",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "div[aria-label=\"Add a page inside\"]"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "graphics-symbol",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg.plusSmall"
+  },
+  {
+    "tag": "a",
+    "text": "New page",
+    "aria": null,
+    "role": "treeitem",
+    "placeholder": null,
+    "href": "/2b5ce9c537f18008a8f3df41dd202841?pvs=12",
+    "type": null,
+    "selector": "a"
+  },
+  {
+    "tag": "div",
+    "text": "",
+    "aria": "Open",
+    "role": "button",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "div[aria-label=\"Open\"]"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "graphics-symbol",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg.arrowChevronSingleDownFillSmall"
+  },
+  {
+    "tag": "span",
+    "text": "",
+    "aria": "Change page icon",
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "span[aria-label=\"Change page icon\"]"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "graphics-symbol",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg.pageEmpty"
+  },
+  {
+    "tag": "div",
+    "text": "",
+    "aria": "Delete, duplicate, and more\u2026",
+    "role": "button",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "div[aria-label=\"Delete, duplicate, and more\u2026\"]"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "graphics-symbol",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg.ellipsisSmall"
+  },
+  {
+    "tag": "div",
+    "text": "",
+    "aria": "Add a page inside",
+    "role": "button",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "div[aria-label=\"Add a page inside\"]"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "graphics-symbol",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg.plusSmall"
+  },
+  {
+    "tag": "a",
+    "text": "New page",
+    "aria": null,
+    "role": "treeitem",
+    "placeholder": null,
+    "href": "/2b4ce9c537f180e0a2f2cb8fdc540924?pvs=12",
+    "type": null,
+    "selector": "a"
+  },
+  {
+    "tag": "div",
+    "text": "",
+    "aria": "Open",
+    "role": "button",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "div[aria-label=\"Open\"]"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "graphics-symbol",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg.arrowChevronSingleDownFillSmall"
+  },
+  {
+    "tag": "span",
+    "text": "",
+    "aria": "Change page icon",
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "span[aria-label=\"Change page icon\"]"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "graphics-symbol",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg.pageEmpty"
+  },
+  {
+    "tag": "div",
+    "text": "",
+    "aria": "Delete, duplicate, and more\u2026",
+    "role": "button",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "div[aria-label=\"Delete, duplicate, and more\u2026\"]"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "graphics-symbol",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg.ellipsisSmall"
+  },
+  {
+    "tag": "div",
+    "text": "",
+    "aria": "Add a page inside",
+    "role": "button",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "div[aria-label=\"Add a page inside\"]"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "graphics-symbol",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg.plusSmall"
+  },
+  {
+    "tag": "div",
+    "text": "More",
+    "aria": null,
+    "role": "button",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "div"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "graphics-symbol",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg.ellipsisSmall"
+  },
+  {
+    "tag": "div",
+    "text": "Shared",
+    "aria": null,
+    "role": "button",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "div#:rp:"
+  },
+  {
+    "tag": "div",
+    "text": "",
+    "aria": null,
+    "role": "button",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "div"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "graphics-symbol",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg.xMark"
+  },
+  {
+    "tag": "div",
+    "text": "",
+    "aria": null,
+    "role": "tree",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "div#:ro:"
+  },
+  {
+    "tag": "div",
+    "text": "Start collaborating",
+    "aria": null,
+    "role": "button",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "div"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "graphics-symbol",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg.plus"
+  },
+  {
+    "tag": "div",
+    "text": "Notion apps",
+    "aria": null,
+    "role": "button",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "div#:r18:"
+  },
+  {
+    "tag": "div",
+    "text": "",
+    "aria": "Open menu",
+    "role": "button",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "div[aria-label=\"Open menu\"]"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "graphics-symbol",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg.ellipsisSmall"
+  },
+  {
+    "tag": "div",
+    "text": "Notion Mail",
+    "aria": null,
+    "role": "button",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "div"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "graphics-symbol",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg.mail"
+  },
+  {
+    "tag": "div",
+    "text": "Notion Calendar",
+    "aria": null,
+    "role": "button",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "div"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "graphics-symbol",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg.calendarDate26"
+  },
+  {
+    "tag": "div",
+    "text": "Notion Desktop",
+    "aria": null,
+    "role": "button",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "div"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "graphics-symbol",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg.notionTintable"
+  },
+  {
+    "tag": "div",
+    "text": "Settings",
+    "aria": null,
+    "role": "button",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "div"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "graphics-symbol",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg.gear"
+  },
+  {
+    "tag": "div",
+    "text": "Marketplace",
+    "aria": null,
+    "role": "button",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "div"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "graphics-symbol",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg.templates"
+  },
+  {
+    "tag": "div",
+    "text": "Trash",
+    "aria": null,
+    "role": "button",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "div"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "graphics-symbol",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg.trash"
+  },
+  {
+    "tag": "div",
+    "text": "Invite members\nCollaborate with your team.",
+    "aria": null,
+    "role": "button",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "div"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "graphics-symbol",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg.inviteMember"
+  },
+  {
+    "tag": "div",
+    "text": "",
+    "aria": null,
+    "role": "button",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "div"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "graphics-symbol",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg.xMarkSmall"
+  },
+  {
+    "tag": "div",
+    "text": "",
+    "aria": null,
+    "role": "button",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "div"
+  },
+  {
+    "tag": "div",
+    "text": "",
+    "aria": "Help, contact, more...",
+    "role": "button",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "div[aria-label=\"Help, contact, more...\"]"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "graphics-symbol",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg.questionMarkCircle"
+  },
+  {
+    "tag": "div",
+    "text": "",
+    "aria": "Changelog",
+    "role": "button",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "div[aria-label=\"Changelog\"]"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "graphics-symbol",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg.boxOpenSparkle"
+  },
+  {
+    "tag": "div",
+    "text": "",
+    "aria": "Resize with left and right arrow keys",
+    "role": "separator",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "div[aria-label=\"Resize with left and right arrow keys\"]"
+  },
+  {
+    "tag": "div",
+    "text": "test-1",
+    "aria": null,
+    "role": "button",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "div"
+  },
+  {
+    "tag": "div",
+    "text": "Private",
+    "aria": null,
+    "role": "button",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "div"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "graphics-symbol",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg.lockFill"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "graphics-symbol",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg.arrowChevronSingleDownFill"
+  },
+  {
+    "tag": "div",
+    "text": "Edited just now",
+    "aria": null,
+    "role": "button",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "div"
+  },
+  {
+    "tag": "div",
+    "text": "Share",
+    "aria": "Share",
+    "role": "button",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "div[aria-label=\"Share\"]"
+  },
+  {
+    "tag": "div",
+    "text": "",
+    "aria": "Favorite",
+    "role": "button",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "div[aria-label=\"Favorite\"]"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "graphics-symbol",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg.star"
+  },
+  {
+    "tag": "div",
+    "text": "",
+    "aria": "Actions",
+    "role": "button",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "div[aria-label=\"Actions\"]"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "graphics-symbol",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg.ellipsis"
+  },
+  {
+    "tag": "div",
+    "text": "Add icon\nAdd cover\nAdd comment\ntest-1\nGet started with\nAsk AI\nAI Meeting Notes\nDatabase\nForm\nTemplates",
+    "aria": "Start typing to edit text",
+    "role": "textbox",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "div[aria-label=\"Start typing to edit text\"]"
+  },
+  {
+    "tag": "div",
+    "text": "",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "div.pseudoSelection"
+  },
+  {
+    "tag": "div",
+    "text": "",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "div.pseudoSelection"
+  },
+  {
+    "tag": "div",
+    "text": "Add icon\nAdd cover\nAdd comment",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "div.pseudoSelection"
+  },
+  {
+    "tag": "div",
+    "text": "Add icon",
+    "aria": null,
+    "role": "button",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "div"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "graphics-symbol",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg.emojiFaceFill"
+  },
+  {
+    "tag": "div",
+    "text": "Add cover",
+    "aria": null,
+    "role": "button",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "div"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "graphics-symbol",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg.photoFill"
+  },
+  {
+    "tag": "div",
+    "text": "Add comment",
+    "aria": null,
+    "role": "button",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "div"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "graphics-symbol",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg.commentFilledFill"
+  },
+  {
+    "tag": "h1",
+    "text": "test-1",
+    "aria": null,
+    "role": null,
+    "placeholder": "New page",
+    "href": null,
+    "type": null,
+    "selector": "h1.notranslate"
+  },
+  {
+    "tag": "div",
+    "text": "",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "div"
+  },
+  {
+    "tag": "div",
+    "text": "",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "div"
+  },
+  {
+    "tag": "div",
+    "text": "Get started with\nAsk AI\nAI Meeting Notes\nDatabase\nForm\nTemplates",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "div.pseudoSelection"
+  },
+  {
+    "tag": "div",
+    "text": "Get started with\nAsk AI\nAI Meeting Notes\nDatabase\nForm\nTemplates",
+    "aria": null,
+    "role": "menu",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "div#:r1c:"
+  },
+  {
+    "tag": "img",
+    "text": "",
+    "aria": null,
+    "role": "presentation",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "img"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "graphics-symbol",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg.paperMicrophone"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "graphics-symbol",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg.viewTable"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "graphics-symbol",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg.docPlainText"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "graphics-symbol",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg.notionTemplate"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "graphics-symbol",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg.ellipsis"
+  },
+  {
+    "tag": "div",
+    "text": "",
+    "aria": "Side Peek",
+    "role": "region",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "div[aria-label=\"Side Peek\"]"
+  },
+  {
+    "tag": "div",
+    "text": "",
+    "aria": "ai",
+    "role": "button",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "div[aria-label=\"ai\"]"
+  }
+]

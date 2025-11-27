@@ -1,0 +1,1432 @@
+[
+  {
+    "tag": "a",
+    "text": "Skip to content",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": "#skip-nav",
+    "type": null,
+    "selector": "a.sc-bdAVGm.ivMuHj"
+  },
+  {
+    "tag": "button",
+    "text": "LM\nLokesh Madem",
+    "aria": "Lokesh Madem Workspace Menu",
+    "role": null,
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "button[aria-label=\"Lokesh Madem Workspace Menu\"]"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg.sc-jFHXmY.sc-hWxRqh"
+  },
+  {
+    "tag": "button",
+    "text": "",
+    "aria": "Search workspace",
+    "role": null,
+    "placeholder": null,
+    "href": null,
+    "type": "button",
+    "selector": "button[aria-label=\"Search workspace\"]"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg.sc-kdJGXD.jVrcUR"
+  },
+  {
+    "tag": "button",
+    "text": "",
+    "aria": "Create new issue",
+    "role": null,
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "button[aria-label=\"Create new issue\"]"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg.sc-iVbIXk.gGseJE"
+  },
+  {
+    "tag": "div",
+    "text": "Inbox",
+    "aria": null,
+    "role": "button",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "div.sc-fceuvp.VCUwT"
+  },
+  {
+    "tag": "a",
+    "text": "Inbox",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": "/lokesh-madem/inbox",
+    "type": null,
+    "selector": "a.sc-inqUgg.sc-ikruFk"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg.sc-iygxDi.hoiKwh"
+  },
+  {
+    "tag": "div",
+    "text": "My issues",
+    "aria": null,
+    "role": "button",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "div.sc-fceuvp.VCUwT"
+  },
+  {
+    "tag": "a",
+    "text": "My issues",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": "/lokesh-madem/my-issues/assigned",
+    "type": null,
+    "selector": "a.sc-inqUgg.sc-ikruFk"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg.sc-jODNVF.kLqDeI"
+  },
+  {
+    "tag": "div",
+    "text": "",
+    "aria": null,
+    "role": "button",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "div.sc-fceuvp.VCUwT"
+  },
+  {
+    "tag": "div",
+    "text": "",
+    "aria": null,
+    "role": "status",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "div#DndLiveRegion-15"
+  },
+  {
+    "tag": "button",
+    "text": "Workspace",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": null,
+    "type": "button",
+    "selector": "button.sc-kMxWVW.jCgeho"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg.sc-gvfyNz.sc-ccQxlh"
+  },
+  {
+    "tag": "div",
+    "text": "Projects",
+    "aria": null,
+    "role": "button",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "div.sc-fceuvp.VCUwT"
+  },
+  {
+    "tag": "a",
+    "text": "Projects",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": "/lokesh-madem/projects/all",
+    "type": null,
+    "selector": "a.sc-inqUgg.sc-ikruFk"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg.sc-SPsAV.jycaCQ"
+  },
+  {
+    "tag": "div",
+    "text": "Views",
+    "aria": null,
+    "role": "button",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "div.sc-fceuvp.VCUwT"
+  },
+  {
+    "tag": "a",
+    "text": "Views",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": "/lokesh-madem/views",
+    "type": null,
+    "selector": "a.sc-inqUgg.sc-ikruFk"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg.sc-gKiCuj.ljethO"
+  },
+  {
+    "tag": "div",
+    "text": "",
+    "aria": null,
+    "role": "button",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "div.sc-fceuvp.VCUwT"
+  },
+  {
+    "tag": "div",
+    "text": "",
+    "aria": null,
+    "role": "button",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "div.sc-fceuvp.VCUwT"
+  },
+  {
+    "tag": "div",
+    "text": "",
+    "aria": null,
+    "role": "status",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "div#DndLiveRegion-16"
+  },
+  {
+    "tag": "div",
+    "text": "More",
+    "aria": "Show more workspace links",
+    "role": "button",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "div[aria-label=\"Show more workspace links\"]"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg.sc-dApsIp.dYgOGc"
+  },
+  {
+    "tag": "button",
+    "text": "Your teams",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": null,
+    "type": "button",
+    "selector": "button.sc-kMxWVW.jCgeho"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg.sc-gvfyNz.sc-ccQxlh"
+  },
+  {
+    "tag": "li",
+    "text": "Lokesh Madem\nIssues\nProjects\nViews",
+    "aria": null,
+    "role": "button",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "li.sc-grIHnJ.cqkOPo"
+  },
+  {
+    "tag": "button",
+    "text": "Lokesh Madem",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "button.sc-jipDxa.gfxhYo"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg.color-override"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg.sc-gvfyNz.sc-ccQxlh"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg.sc-cXbDDc.sc-jSIhEV"
+  },
+  {
+    "tag": "a",
+    "text": "Issues",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": "/lokesh-madem/team/LOK/active",
+    "type": null,
+    "selector": "a.sc-inqUgg.sc-ikruFk"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg"
+  },
+  {
+    "tag": "a",
+    "text": "Projects",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": "/lokesh-madem/team/LOK/projects/all",
+    "type": null,
+    "selector": "a.sc-inqUgg.sc-ikruFk"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg"
+  },
+  {
+    "tag": "a",
+    "text": "Views",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": "/lokesh-madem/team/LOK/views/issues",
+    "type": null,
+    "selector": "a.sc-inqUgg.sc-ikruFk"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg"
+  },
+  {
+    "tag": "div",
+    "text": "",
+    "aria": null,
+    "role": "status",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "div#DndLiveRegion-17"
+  },
+  {
+    "tag": "div",
+    "text": "",
+    "aria": null,
+    "role": "status",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "div#DndLiveRegion-18"
+  },
+  {
+    "tag": "button",
+    "text": "Try",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": null,
+    "type": "button",
+    "selector": "button.sc-kMxWVW.jCgeho"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg.sc-gvfyNz.sc-ccQxlh"
+  },
+  {
+    "tag": "a",
+    "text": "Import issues",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": "/lokesh-madem/settings/import-export",
+    "type": null,
+    "selector": "a.sc-inqUgg.sc-ikruFk"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg.sc-eKKHNc.fjczNH"
+  },
+  {
+    "tag": "button",
+    "text": "",
+    "aria": "Dismiss",
+    "role": null,
+    "placeholder": null,
+    "href": null,
+    "type": "button",
+    "selector": "button[aria-label=\"Dismiss\"]"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg.sc-jaiRGn.bMNxi"
+  },
+  {
+    "tag": "button",
+    "text": "",
+    "aria": "Dismiss",
+    "role": null,
+    "placeholder": null,
+    "href": null,
+    "type": "button",
+    "selector": "button[aria-label=\"Dismiss\"]"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg"
+  },
+  {
+    "tag": "a",
+    "text": "Link GitHub",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": "/lokesh-madem/settings/integrations/github?source=try",
+    "type": null,
+    "selector": "a.sc-inqUgg.sc-ikruFk"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg.sc-wWdWi.fnImx"
+  },
+  {
+    "tag": "button",
+    "text": "",
+    "aria": "Dismiss",
+    "role": null,
+    "placeholder": null,
+    "href": null,
+    "type": "button",
+    "selector": "button[aria-label=\"Dismiss\"]"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg"
+  },
+  {
+    "tag": "button",
+    "text": "",
+    "aria": "Open Help menu",
+    "role": "button",
+    "placeholder": null,
+    "href": null,
+    "type": "button",
+    "selector": "button[aria-label=\"Open Help menu\"]"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg"
+  },
+  {
+    "tag": "a",
+    "text": "All issues",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": "/lokesh-madem/team/LOK/all",
+    "type": null,
+    "selector": "a.sc-inqUgg.sc-dHPMea"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg"
+  },
+  {
+    "tag": "a",
+    "text": "Active",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": "/lokesh-madem/team/LOK/active",
+    "type": null,
+    "selector": "a.sc-inqUgg.sc-dHPMea"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg"
+  },
+  {
+    "tag": "a",
+    "text": "Backlog",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": "/lokesh-madem/team/LOK/backlog",
+    "type": null,
+    "selector": "a.sc-inqUgg.sc-dHPMea"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg"
+  },
+  {
+    "tag": "button",
+    "text": "",
+    "aria": "Add new view",
+    "role": null,
+    "placeholder": null,
+    "href": null,
+    "type": "button",
+    "selector": "button[aria-label=\"Add new view\"]"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg"
+  },
+  {
+    "tag": "div",
+    "text": "",
+    "aria": null,
+    "role": "status",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "div#DndLiveRegion-19"
+  },
+  {
+    "tag": "button",
+    "text": "",
+    "aria": "Setup active issues notifications",
+    "role": null,
+    "placeholder": null,
+    "href": null,
+    "type": "button",
+    "selector": "button[aria-label=\"Setup active issues notifications\"]"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg.sc-doCvAS.xaOgo"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg.sc-hDrLNR.fvpQmt"
+  },
+  {
+    "tag": "button",
+    "text": "",
+    "aria": "Open details",
+    "role": null,
+    "placeholder": null,
+    "href": null,
+    "type": "button",
+    "selector": "button[aria-label=\"Open details\"]"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg"
+  },
+  {
+    "tag": "button",
+    "text": "Filter",
+    "aria": "Add filter",
+    "role": null,
+    "placeholder": null,
+    "href": null,
+    "type": "button",
+    "selector": "button[aria-label=\"Add filter\"]"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg.sc-bSpuqW.bQUHTi"
+  },
+  {
+    "tag": "button",
+    "text": "Display",
+    "aria": "Display options",
+    "role": null,
+    "placeholder": null,
+    "href": null,
+    "type": "button",
+    "selector": "button[aria-label=\"Display options\"]"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg"
+  },
+  {
+    "tag": "div",
+    "text": "",
+    "aria": "Collapse group",
+    "role": "button",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "div[aria-label=\"Collapse group\"]"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg.sc-gvfyNz.lgUiEf"
+  },
+  {
+    "tag": "button",
+    "text": "4",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "button.sc-bXdwGY.juQorP"
+  },
+  {
+    "tag": "button",
+    "text": "",
+    "aria": "Create new issue",
+    "role": null,
+    "placeholder": null,
+    "href": null,
+    "type": "button",
+    "selector": "button[aria-label=\"Create new issue\"]"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg"
+  },
+  {
+    "tag": "a",
+    "text": "LOK-1\nGet familiar with Linear (1)\nNov 24",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": "/lokesh-madem/issue/LOK-1/get-familiar-with-linear-1",
+    "type": null,
+    "selector": "a.sc-inqUgg.sc-bMIfFc"
+  },
+  {
+    "tag": "input",
+    "text": "",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": null,
+    "type": "checkbox",
+    "selector": "input.sc-hwPWuc.sc-hEEjQE"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": "No Priority",
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg[aria-label=\"No Priority\"]"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg.sc-kSnYqZ.hnUblM"
+  },
+  {
+    "tag": "a",
+    "text": "LOK-2\nSet up your teams (2)\nNov 24",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": "/lokesh-madem/issue/LOK-2/set-up-your-teams-2",
+    "type": null,
+    "selector": "a.sc-inqUgg.sc-bMIfFc"
+  },
+  {
+    "tag": "input",
+    "text": "",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": null,
+    "type": "checkbox",
+    "selector": "input.sc-hwPWuc.sc-hEEjQE"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": "No Priority",
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg[aria-label=\"No Priority\"]"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg.sc-kSnYqZ.hnUblM"
+  },
+  {
+    "tag": "a",
+    "text": "LOK-3\nConnect your tools (3)\nNov 24",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": "/lokesh-madem/issue/LOK-3/connect-your-tools-3",
+    "type": null,
+    "selector": "a.sc-inqUgg.sc-bMIfFc"
+  },
+  {
+    "tag": "input",
+    "text": "",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": null,
+    "type": "checkbox",
+    "selector": "input.sc-hwPWuc.sc-hEEjQE"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": "No Priority",
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg[aria-label=\"No Priority\"]"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg.sc-kSnYqZ.hnUblM"
+  },
+  {
+    "tag": "a",
+    "text": "LOK-4\nImport your data (4)\nNov 24",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": "/lokesh-madem/issue/LOK-4/import-your-data-4",
+    "type": null,
+    "selector": "a.sc-inqUgg.sc-bMIfFc"
+  },
+  {
+    "tag": "input",
+    "text": "",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": null,
+    "type": "checkbox",
+    "selector": "input.sc-hwPWuc.sc-hEEjQE"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": "No Priority",
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg[aria-label=\"No Priority\"]"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg.sc-kSnYqZ.hnUblM"
+  },
+  {
+    "tag": "div",
+    "text": "",
+    "aria": null,
+    "role": "status",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "div#DndLiveRegion-20"
+  },
+  {
+    "tag": "div",
+    "text": "Download Linear\nAvailable for macOS, Windows, iOS, and Android.\nDownload",
+    "aria": null,
+    "role": "status",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "div.sc-jCttAn.sc-bdArtk"
+  },
+  {
+    "tag": "button",
+    "text": "",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": null,
+    "type": "button",
+    "selector": "button.sc-fDKFyg.jllzpL"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg"
+  },
+  {
+    "tag": "a",
+    "text": "Download",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": "https://linear.app/download",
+    "type": null,
+    "selector": "a.sc-kIbbrj.dCGhYQ"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg"
+  },
+  {
+    "tag": "div",
+    "text": "LOK\n\u203a\nNew issue\n\n\n\n\n\n\n\nTodo\nPriority\nAssignee\nLabels\nCreate more\nCreate issue",
+    "aria": "Create issue",
+    "role": "dialog",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "div[aria-label=\"Create issue\"]"
+  },
+  {
+    "tag": "button",
+    "text": "",
+    "aria": "Expand",
+    "role": null,
+    "placeholder": null,
+    "href": null,
+    "type": "button",
+    "selector": "button[aria-label=\"Expand\"]"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg"
+  },
+  {
+    "tag": "button",
+    "text": "",
+    "aria": "Close",
+    "role": null,
+    "placeholder": null,
+    "href": null,
+    "type": "button",
+    "selector": "button[aria-label=\"Close\"]"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg"
+  },
+  {
+    "tag": "button",
+    "text": "LOK",
+    "aria": "Set team",
+    "role": null,
+    "placeholder": null,
+    "href": null,
+    "type": "button",
+    "selector": "button[aria-label=\"Set team\"]"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg.color-override"
+  },
+  {
+    "tag": "div",
+    "text": "",
+    "aria": "Issue title",
+    "role": "textbox",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "div[aria-label=\"Issue title\"]"
+  },
+  {
+    "tag": "div",
+    "text": "",
+    "aria": "Issue description",
+    "role": "textbox",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "div[aria-label=\"Issue description\"]"
+  },
+  {
+    "tag": "button",
+    "text": "Todo",
+    "aria": "Change status",
+    "role": "combobox",
+    "placeholder": null,
+    "href": null,
+    "type": "button",
+    "selector": "button[aria-label=\"Change status\"]"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": "Todo",
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg[aria-label=\"Todo\"]"
+  },
+  {
+    "tag": "button",
+    "text": "Priority",
+    "aria": "Change priority. No priority is selected",
+    "role": "combobox",
+    "placeholder": null,
+    "href": null,
+    "type": "button",
+    "selector": "button[aria-label=\"Change priority. No priority is selected\"]"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": "No Priority",
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg[aria-label=\"No Priority\"]"
+  },
+  {
+    "tag": "button",
+    "text": "Assignee",
+    "aria": "Change assignee. Currently no one is assigned.",
+    "role": "combobox",
+    "placeholder": null,
+    "href": null,
+    "type": "button",
+    "selector": "button[aria-label=\"Change assignee. Currently no one is assigned.\"]"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": "Not assigned",
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg[aria-label=\"Not assigned\"]"
+  },
+  {
+    "tag": "button",
+    "text": "Labels",
+    "aria": "Change labels",
+    "role": "combobox",
+    "placeholder": null,
+    "href": null,
+    "type": "button",
+    "selector": "button[aria-label=\"Change labels\"]"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": "No labels",
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg[aria-label=\"No labels\"]"
+  },
+  {
+    "tag": "button",
+    "text": "",
+    "aria": "More actions",
+    "role": "combobox",
+    "placeholder": null,
+    "href": null,
+    "type": "button",
+    "selector": "button[aria-label=\"More actions\"]"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg"
+  },
+  {
+    "tag": "button",
+    "text": "",
+    "aria": "Attach images, files or videos",
+    "role": null,
+    "placeholder": null,
+    "href": null,
+    "type": "button",
+    "selector": "button[aria-label=\"Attach images, files or videos\"]"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg"
+  },
+  {
+    "tag": "input",
+    "text": "",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": null,
+    "type": "file",
+    "selector": "input.sc-fAQbmj.kKIzbB"
+  },
+  {
+    "tag": "input",
+    "text": "",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": null,
+    "type": "checkbox",
+    "selector": "input#createMoreToggle"
+  },
+  {
+    "tag": "button",
+    "text": "Create issue",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": null,
+    "type": "submit",
+    "selector": "button.sc-cyquNi.dkTIHt"
+  },
+  {
+    "tag": "div",
+    "text": "Showing all items\nP\nNo priority\n0\nUrgent\n1\nHigh\n2\nMedium\n3\nLow\n4",
+    "aria": null,
+    "role": "dialog",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "div.sc-bya-dYi.hrApWO"
+  },
+  {
+    "tag": "span",
+    "text": "Showing all items",
+    "aria": null,
+    "role": "status",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "span"
+  },
+  {
+    "tag": "input",
+    "text": "",
+    "aria": "Set priority to\u2026",
+    "role": null,
+    "placeholder": "Set priority to\u2026",
+    "href": null,
+    "type": "search",
+    "selector": "input#_r_6h_"
+  },
+  {
+    "tag": "ul",
+    "text": "No priority\n0\nUrgent\n1\nHigh\n2\nMedium\n3\nLow\n4",
+    "aria": null,
+    "role": "listbox",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "ul#_r_6g_"
+  },
+  {
+    "tag": "li",
+    "text": "No priority\n0",
+    "aria": null,
+    "role": "option",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "li#0no-priority"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": "No Priority",
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg[aria-label=\"No Priority\"]"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg.sc-bZQbRP.fBggXS"
+  },
+  {
+    "tag": "li",
+    "text": "Urgent\n1",
+    "aria": null,
+    "role": "option",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "li#1urgent"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": "Urgent Priority",
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg[aria-label=\"Urgent Priority\"]"
+  },
+  {
+    "tag": "li",
+    "text": "High\n2",
+    "aria": null,
+    "role": "option",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "li#2high"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": "High Priority",
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg[aria-label=\"High Priority\"]"
+  },
+  {
+    "tag": "li",
+    "text": "Medium\n3",
+    "aria": null,
+    "role": "option",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "li#3medium"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": "Medium Priority",
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg[aria-label=\"Medium Priority\"]"
+  },
+  {
+    "tag": "li",
+    "text": "Low\n4",
+    "aria": null,
+    "role": "option",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "li#4low"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": "Low Priority",
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg[aria-label=\"Low Priority\"]"
+  }
+]

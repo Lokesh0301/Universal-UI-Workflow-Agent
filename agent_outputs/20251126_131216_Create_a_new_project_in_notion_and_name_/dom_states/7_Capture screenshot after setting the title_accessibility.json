@@ -1,0 +1,403 @@
+{
+  "role": "WebArea",
+  "name": "test-1",
+  "children": [
+    {
+      "role": "link",
+      "name": "Skip to content"
+    },
+    {
+      "role": "button",
+      "name": "L Lokesh\u2019s Space Close sidebar New page More options",
+      "haspopup": "dialog",
+      "children": [
+        {
+          "role": "button",
+          "name": "Close sidebar"
+        },
+        {
+          "role": "button",
+          "name": "New page"
+        },
+        {
+          "role": "button",
+          "name": "More options",
+          "haspopup": "dialog"
+        }
+      ]
+    },
+    {
+      "role": "button",
+      "name": "Search"
+    },
+    {
+      "role": "link",
+      "name": "Home"
+    },
+    {
+      "role": "link",
+      "name": "Meetings"
+    },
+    {
+      "role": "link",
+      "name": "Notion AI"
+    },
+    {
+      "role": "button",
+      "name": "Inbox"
+    },
+    {
+      "role": "button",
+      "name": "Private Open menu Add a page",
+      "expanded": true,
+      "children": [
+        {
+          "role": "button",
+          "name": "Open menu",
+          "haspopup": "dialog"
+        },
+        {
+          "role": "button",
+          "name": "Add a page"
+        }
+      ]
+    },
+    {
+      "role": "tree",
+      "name": "Private Open menu Add a page",
+      "orientation": "vertical",
+      "children": [
+        {
+          "role": "treeitem",
+          "name": "test-1",
+          "level": 1,
+          "children": [
+            {
+              "role": "button",
+              "name": "Open",
+              "description": "test-1"
+            },
+            {
+              "role": "button",
+              "name": "Delete, duplicate, and more\u2026"
+            },
+            {
+              "role": "button",
+              "name": "Add a page inside"
+            }
+          ]
+        },
+        {
+          "role": "treeitem",
+          "name": "ProZ",
+          "level": 1,
+          "children": [
+            {
+              "role": "button",
+              "name": "Open",
+              "description": "ProZ"
+            },
+            {
+              "role": "button",
+              "name": "Delete, duplicate, and more\u2026"
+            },
+            {
+              "role": "button",
+              "name": "Add a page inside"
+            }
+          ]
+        },
+        {
+          "role": "treeitem",
+          "name": "project-b",
+          "level": 1,
+          "children": [
+            {
+              "role": "button",
+              "name": "Open",
+              "description": "project-b"
+            },
+            {
+              "role": "button",
+              "name": "Delete, duplicate, and more\u2026"
+            },
+            {
+              "role": "button",
+              "name": "Add a page inside"
+            }
+          ]
+        },
+        {
+          "role": "treeitem",
+          "name": "Lokesh Madem",
+          "level": 1,
+          "children": [
+            {
+              "role": "button",
+              "name": "Open",
+              "description": "Lokesh Madem"
+            },
+            {
+              "role": "button",
+              "name": "Delete, duplicate, and more\u2026"
+            },
+            {
+              "role": "button",
+              "name": "Add a page inside"
+            }
+          ]
+        },
+        {
+          "role": "treeitem",
+          "name": "Lokesh",
+          "level": 1,
+          "children": [
+            {
+              "role": "button",
+              "name": "Open",
+              "description": "Lokesh"
+            },
+            {
+              "role": "button",
+              "name": "Delete, duplicate, and more\u2026"
+            },
+            {
+              "role": "button",
+              "name": "Add a page inside"
+            }
+          ]
+        },
+        {
+          "role": "treeitem",
+          "name": "Lokesh",
+          "level": 1,
+          "children": [
+            {
+              "role": "button",
+              "name": "Open",
+              "description": "Lokesh"
+            },
+            {
+              "role": "button",
+              "name": "Delete, duplicate, and more\u2026"
+            },
+            {
+              "role": "button",
+              "name": "Add a page inside"
+            }
+          ]
+        },
+        {
+          "role": "treeitem",
+          "name": "New page",
+          "level": 1,
+          "children": [
+            {
+              "role": "button",
+              "name": "Open",
+              "description": "New page"
+            },
+            {
+              "role": "button",
+              "name": "Delete, duplicate, and more\u2026"
+            },
+            {
+              "role": "button",
+              "name": "Add a page inside"
+            }
+          ]
+        },
+        {
+          "role": "treeitem",
+          "name": "New page",
+          "level": 1,
+          "children": [
+            {
+              "role": "button",
+              "name": "Open",
+              "description": "New page"
+            },
+            {
+              "role": "button",
+              "name": "Delete, duplicate, and more\u2026"
+            },
+            {
+              "role": "button",
+              "name": "Add a page inside"
+            }
+          ]
+        },
+        {
+          "role": "treeitem",
+          "name": "New page",
+          "level": 1,
+          "children": [
+            {
+              "role": "button",
+              "name": "Open",
+              "description": "New page"
+            },
+            {
+              "role": "button",
+              "name": "Delete, duplicate, and more\u2026"
+            },
+            {
+              "role": "button",
+              "name": "Add a page inside"
+            }
+          ]
+        },
+        {
+          "role": "treeitem",
+          "name": "New page",
+          "level": 1,
+          "children": [
+            {
+              "role": "button",
+              "name": "Open",
+              "description": "New page"
+            },
+            {
+              "role": "button",
+              "name": "Delete, duplicate, and more\u2026"
+            },
+            {
+              "role": "button",
+              "name": "Add a page inside"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "role": "button",
+      "name": "More"
+    },
+    {
+      "role": "button",
+      "name": "Shared",
+      "expanded": true,
+      "children": [
+        {
+          "role": "button",
+          "name": ""
+        }
+      ]
+    },
+    {
+      "role": "tree",
+      "name": "Shared",
+      "orientation": "vertical"
+    },
+    {
+      "role": "button",
+      "name": "Start collaborating"
+    },
+    {
+      "role": "button",
+      "name": "Notion apps Open menu",
+      "expanded": true,
+      "children": [
+        {
+          "role": "button",
+          "name": "Open menu",
+          "haspopup": "dialog"
+        }
+      ]
+    },
+    {
+      "role": "button",
+      "name": "Notion Mail"
+    },
+    {
+      "role": "button",
+      "name": "Notion Calendar"
+    },
+    {
+      "role": "button",
+      "name": "Notion Desktop"
+    },
+    {
+      "role": "button",
+      "name": "Settings"
+    },
+    {
+      "role": "button",
+      "name": "Marketplace"
+    },
+    {
+      "role": "button",
+      "name": "Trash",
+      "haspopup": "dialog"
+    },
+    {
+      "role": "button",
+      "name": "Invite members Collaborate with your team.",
+      "children": [
+        {
+          "role": "button",
+          "name": ""
+        }
+      ]
+    },
+    {
+      "role": "button",
+      "name": "Help, contact, more...",
+      "children": [
+        {
+          "role": "button",
+          "name": "Help, contact, more...",
+          "haspopup": "dialog"
+        }
+      ]
+    },
+    {
+      "role": "button",
+      "name": "Changelog",
+      "haspopup": "dialog"
+    },
+    {
+      "role": "separator",
+      "name": "Resize with left and right arrow keys",
+      "valuetext": "",
+      "valuemin": 0,
+      "valuemax": 100,
+      "orientation": "vertical",
+      "value": 0
+    },
+    {
+      "role": "button",
+      "name": "test-1"
+    },
+    {
+      "role": "button",
+      "name": "Private"
+    },
+    {
+      "role": "button",
+      "name": "Share",
+      "haspopup": "dialog"
+    },
+    {
+      "role": "button",
+      "name": "Favorite"
+    },
+    {
+      "role": "button",
+      "name": "Actions",
+      "haspopup": "dialog"
+    },
+    {
+      "role": "textbox",
+      "name": "Start typing to edit text",
+      "focused": true,
+      "multiline": true,
+      "value": "Add icon\nAdd cover\nAdd comment\ntest-1\nGet started with\nAsk AI\nAI Meeting Notes\nDatabase\nForm\nTemplates"
+    },
+    {
+      "role": "button",
+      "name": "ai",
+      "haspopup": "dialog"
+    }
+  ]
+}
