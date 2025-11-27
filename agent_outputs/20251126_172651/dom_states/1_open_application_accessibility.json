@@ -1,0 +1,146 @@
+{
+  "role": "WebArea",
+  "name": "Log in - Asana",
+  "children": [
+    {
+      "role": "link",
+      "name": "Asana logo"
+    },
+    {
+      "role": "heading",
+      "name": "Welcome to Asana",
+      "level": 2
+    },
+    {
+      "role": "heading",
+      "name": "To get started, please sign in",
+      "level": 3
+    },
+    {
+      "role": "button",
+      "name": "Continue with Google"
+    },
+    {
+      "role": "text",
+      "name": "or"
+    },
+    {
+      "role": "text",
+      "name": "Email address"
+    },
+    {
+      "role": "textbox",
+      "name": "Email address",
+      "focused": true,
+      "required": true
+    },
+    {
+      "role": "button",
+      "name": "Continue"
+    },
+    {
+      "role": "link",
+      "name": "Asana.com"
+    },
+    {
+      "role": "text",
+      "name": "\u2022"
+    },
+    {
+      "role": "link",
+      "name": "Support"
+    },
+    {
+      "role": "text",
+      "name": "\u2022"
+    },
+    {
+      "role": "link",
+      "name": "Integrations"
+    },
+    {
+      "role": "text",
+      "name": "\u2022"
+    },
+    {
+      "role": "link",
+      "name": "Forum"
+    },
+    {
+      "role": "text",
+      "name": "\u2022"
+    },
+    {
+      "role": "link",
+      "name": "Developers & API"
+    },
+    {
+      "role": "text",
+      "name": "\u2022"
+    },
+    {
+      "role": "link",
+      "name": "Resources"
+    },
+    {
+      "role": "text",
+      "name": "\u2022"
+    },
+    {
+      "role": "link",
+      "name": "Guide"
+    },
+    {
+      "role": "text",
+      "name": "\u2022"
+    },
+    {
+      "role": "link",
+      "name": "Templates"
+    },
+    {
+      "role": "text",
+      "name": "\u2022"
+    },
+    {
+      "role": "link",
+      "name": "Pricing"
+    },
+    {
+      "role": "text",
+      "name": "\u2022"
+    },
+    {
+      "role": "link",
+      "name": "Terms"
+    },
+    {
+      "role": "text",
+      "name": "\u2022"
+    },
+    {
+      "role": "link",
+      "name": "Privacy"
+    },
+    {
+      "role": "text",
+      "name": "This site is protected by reCAPTCHA and the Google "
+    },
+    {
+      "role": "link",
+      "name": "Privacy Policy"
+    },
+    {
+      "role": "text",
+      "name": " and "
+    },
+    {
+      "role": "link",
+      "name": "Terms of Service"
+    },
+    {
+      "role": "text",
+      "name": " apply."
+    }
+  ]
+}

@@ -1,0 +1,1032 @@
+[
+  {
+    "tag": "a",
+    "text": "Skip to content",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": "#skip-nav",
+    "type": null,
+    "selector": "a.sc-bdAVGm.ivMuHj"
+  },
+  {
+    "tag": "button",
+    "text": "LM\nLokesh Madem",
+    "aria": "Lokesh Madem Workspace Menu",
+    "role": null,
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "button[aria-label=\"Lokesh Madem Workspace Menu\"]"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg.sc-jFHXmY.sc-hWxRqh"
+  },
+  {
+    "tag": "button",
+    "text": "",
+    "aria": "Search workspace",
+    "role": null,
+    "placeholder": null,
+    "href": null,
+    "type": "button",
+    "selector": "button[aria-label=\"Search workspace\"]"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg.sc-kdJGXD.jVrcUR"
+  },
+  {
+    "tag": "button",
+    "text": "",
+    "aria": "Create new issue",
+    "role": null,
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "button[aria-label=\"Create new issue\"]"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg.sc-iVbIXk.gGseJE"
+  },
+  {
+    "tag": "div",
+    "text": "Inbox",
+    "aria": null,
+    "role": "button",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "div.sc-fceuvp.VCUwT"
+  },
+  {
+    "tag": "a",
+    "text": "Inbox",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": "/lokesh-madem/inbox",
+    "type": null,
+    "selector": "a.sc-inqUgg.sc-ikruFk"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg.sc-iygxDi.hoiKwh"
+  },
+  {
+    "tag": "div",
+    "text": "My issues",
+    "aria": null,
+    "role": "button",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "div.sc-fceuvp.VCUwT"
+  },
+  {
+    "tag": "a",
+    "text": "My issues",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": "/lokesh-madem/my-issues/assigned",
+    "type": null,
+    "selector": "a.sc-inqUgg.sc-ikruFk"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg.sc-jODNVF.kLqDeI"
+  },
+  {
+    "tag": "div",
+    "text": "",
+    "aria": null,
+    "role": "button",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "div.sc-fceuvp.VCUwT"
+  },
+  {
+    "tag": "div",
+    "text": "",
+    "aria": null,
+    "role": "status",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "div#DndLiveRegion-14"
+  },
+  {
+    "tag": "button",
+    "text": "Workspace",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": null,
+    "type": "button",
+    "selector": "button.sc-kMxWVW.jCgeho"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg.sc-gvfyNz.sc-ccQxlh"
+  },
+  {
+    "tag": "div",
+    "text": "Projects",
+    "aria": null,
+    "role": "button",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "div.sc-fceuvp.VCUwT"
+  },
+  {
+    "tag": "a",
+    "text": "Projects",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": "/lokesh-madem/projects/all",
+    "type": null,
+    "selector": "a.sc-inqUgg.sc-ikruFk"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg.sc-SPsAV.jycaCQ"
+  },
+  {
+    "tag": "div",
+    "text": "Views",
+    "aria": null,
+    "role": "button",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "div.sc-fceuvp.VCUwT"
+  },
+  {
+    "tag": "a",
+    "text": "Views",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": "/lokesh-madem/views",
+    "type": null,
+    "selector": "a.sc-inqUgg.sc-ikruFk"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg.sc-gKiCuj.ljethO"
+  },
+  {
+    "tag": "div",
+    "text": "",
+    "aria": null,
+    "role": "button",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "div.sc-fceuvp.VCUwT"
+  },
+  {
+    "tag": "div",
+    "text": "",
+    "aria": null,
+    "role": "button",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "div.sc-fceuvp.VCUwT"
+  },
+  {
+    "tag": "div",
+    "text": "",
+    "aria": null,
+    "role": "status",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "div#DndLiveRegion-15"
+  },
+  {
+    "tag": "div",
+    "text": "More",
+    "aria": "Show more workspace links",
+    "role": "button",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "div[aria-label=\"Show more workspace links\"]"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg.sc-dApsIp.dYgOGc"
+  },
+  {
+    "tag": "button",
+    "text": "Your teams",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": null,
+    "type": "button",
+    "selector": "button.sc-kMxWVW.jCgeho"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg.sc-gvfyNz.sc-ccQxlh"
+  },
+  {
+    "tag": "li",
+    "text": "Lokesh Madem\nIssues\nProjects\nViews",
+    "aria": null,
+    "role": "button",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "li.sc-grIHnJ.cqkOPo"
+  },
+  {
+    "tag": "button",
+    "text": "Lokesh Madem",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "button.sc-jipDxa.gfxhYo"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg.color-override"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg.sc-gvfyNz.sc-ccQxlh"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg.sc-cXbDDc.sc-jSIhEV"
+  },
+  {
+    "tag": "a",
+    "text": "Issues",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": "/lokesh-madem/team/LOK/active",
+    "type": null,
+    "selector": "a.sc-inqUgg.sc-ikruFk"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg"
+  },
+  {
+    "tag": "a",
+    "text": "Projects",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": "/lokesh-madem/team/LOK/projects/all",
+    "type": null,
+    "selector": "a.sc-inqUgg.sc-ikruFk"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg"
+  },
+  {
+    "tag": "a",
+    "text": "Views",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": "/lokesh-madem/team/LOK/views/issues",
+    "type": null,
+    "selector": "a.sc-inqUgg.sc-ikruFk"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg"
+  },
+  {
+    "tag": "div",
+    "text": "",
+    "aria": null,
+    "role": "status",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "div#DndLiveRegion-16"
+  },
+  {
+    "tag": "div",
+    "text": "",
+    "aria": null,
+    "role": "status",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "div#DndLiveRegion-17"
+  },
+  {
+    "tag": "button",
+    "text": "Try",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": null,
+    "type": "button",
+    "selector": "button.sc-kMxWVW.jCgeho"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg.sc-gvfyNz.sc-ccQxlh"
+  },
+  {
+    "tag": "a",
+    "text": "Import issues",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": "/lokesh-madem/settings/import-export",
+    "type": null,
+    "selector": "a.sc-inqUgg.sc-ikruFk"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg.sc-eKKHNc.fjczNH"
+  },
+  {
+    "tag": "button",
+    "text": "",
+    "aria": "Dismiss",
+    "role": null,
+    "placeholder": null,
+    "href": null,
+    "type": "button",
+    "selector": "button[aria-label=\"Dismiss\"]"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg.sc-jaiRGn.bMNxi"
+  },
+  {
+    "tag": "button",
+    "text": "",
+    "aria": "Dismiss",
+    "role": null,
+    "placeholder": null,
+    "href": null,
+    "type": "button",
+    "selector": "button[aria-label=\"Dismiss\"]"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg"
+  },
+  {
+    "tag": "a",
+    "text": "Link GitHub",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": "/lokesh-madem/settings/integrations/github?source=try",
+    "type": null,
+    "selector": "a.sc-inqUgg.sc-ikruFk"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg.sc-wWdWi.fnImx"
+  },
+  {
+    "tag": "button",
+    "text": "",
+    "aria": "Dismiss",
+    "role": null,
+    "placeholder": null,
+    "href": null,
+    "type": "button",
+    "selector": "button[aria-label=\"Dismiss\"]"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg"
+  },
+  {
+    "tag": "button",
+    "text": "",
+    "aria": "Open Help menu",
+    "role": "button",
+    "placeholder": null,
+    "href": null,
+    "type": "button",
+    "selector": "button[aria-label=\"Open Help menu\"]"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg"
+  },
+  {
+    "tag": "a",
+    "text": "All projects",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": "/lokesh-madem/projects/all",
+    "type": null,
+    "selector": "a.sc-inqUgg.sc-dHPMea"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg"
+  },
+  {
+    "tag": "button",
+    "text": "New view",
+    "aria": "Add new view",
+    "role": null,
+    "placeholder": null,
+    "href": null,
+    "type": "button",
+    "selector": "button[aria-label=\"Add new view\"]"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg"
+  },
+  {
+    "tag": "div",
+    "text": "",
+    "aria": null,
+    "role": "status",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "div#DndLiveRegion-20"
+  },
+  {
+    "tag": "button",
+    "text": "",
+    "aria": "Copy page URL",
+    "role": null,
+    "placeholder": null,
+    "href": null,
+    "type": "button",
+    "selector": "button[aria-label=\"Copy page URL\"]"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg"
+  },
+  {
+    "tag": "button",
+    "text": "Add project",
+    "aria": "Add project",
+    "role": null,
+    "placeholder": null,
+    "href": null,
+    "type": "button",
+    "selector": "button[aria-label=\"Add project\"]"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg"
+  },
+  {
+    "tag": "button",
+    "text": "",
+    "aria": "Close sidebar",
+    "role": null,
+    "placeholder": null,
+    "href": null,
+    "type": "button",
+    "selector": "button[aria-label=\"Close sidebar\"]"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg"
+  },
+  {
+    "tag": "button",
+    "text": "Filter",
+    "aria": "Add filter",
+    "role": null,
+    "placeholder": null,
+    "href": null,
+    "type": "button",
+    "selector": "button[aria-label=\"Add filter\"]"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg.sc-bSpuqW.bQUHTi"
+  },
+  {
+    "tag": "button",
+    "text": "Display",
+    "aria": "Display options",
+    "role": null,
+    "placeholder": null,
+    "href": null,
+    "type": "button",
+    "selector": "button[aria-label=\"Display options\"]"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg"
+  },
+  {
+    "tag": "button",
+    "text": "Name",
+    "aria": "Order by Name",
+    "role": null,
+    "placeholder": null,
+    "href": null,
+    "type": "button",
+    "selector": "button[aria-label=\"Order by Name\"]"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg.sc-bqqTCz.fKmFbt"
+  },
+  {
+    "tag": "button",
+    "text": "Health",
+    "aria": "Order by Health",
+    "role": null,
+    "placeholder": null,
+    "href": null,
+    "type": "button",
+    "selector": "button[aria-label=\"Order by Health\"]"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg.sc-bqqTCz.fKmFbt"
+  },
+  {
+    "tag": "button",
+    "text": "Priority",
+    "aria": "Order by Priority",
+    "role": null,
+    "placeholder": null,
+    "href": null,
+    "type": "button",
+    "selector": "button[aria-label=\"Order by Priority\"]"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg.sc-bqqTCz.fKmFbt"
+  },
+  {
+    "tag": "button",
+    "text": "Target date",
+    "aria": "Order by Target date",
+    "role": null,
+    "placeholder": null,
+    "href": null,
+    "type": "button",
+    "selector": "button[aria-label=\"Order by Target date\"]"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg.sc-bqqTCz.fKmFbt"
+  },
+  {
+    "tag": "button",
+    "text": "Status",
+    "aria": "Order by Status",
+    "role": null,
+    "placeholder": null,
+    "href": null,
+    "type": "button",
+    "selector": "button[aria-label=\"Order by Status\"]"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg.sc-bqqTCz.fKmFbt"
+  },
+  {
+    "tag": "a",
+    "text": "DSG\nNo updates\n0%",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": "/lokesh-madem/project/dsg-89dfce80d71b",
+    "type": null,
+    "selector": "a.sc-inqUgg.sc-bMIfFc"
+  },
+  {
+    "tag": "input",
+    "text": "",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": null,
+    "type": "checkbox",
+    "selector": "input.sc-hwPWuc.sc-hEEjQE"
+  },
+  {
+    "tag": "button",
+    "text": "",
+    "aria": "Choose icon",
+    "role": null,
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "button[aria-label=\"Choose icon\"]"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg.sc-ircDMF.kCsJGE"
+  },
+  {
+    "tag": "button",
+    "text": "No updates",
+    "aria": "No updates. Click to write update.",
+    "role": null,
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "button[aria-label=\"No updates. Click to write update.\"]"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg"
+  },
+  {
+    "tag": "button",
+    "text": "",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "button.sc-gwxyPx.fViAiB"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": "No Priority",
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg[aria-label=\"No Priority\"]"
+  },
+  {
+    "tag": "button",
+    "text": "",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "button.sc-gwxyPx.fViAiB"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg"
+  },
+  {
+    "tag": "div",
+    "text": "",
+    "aria": "Change project target date",
+    "role": "button",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "div[aria-label=\"Change project target date\"]"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg"
+  },
+  {
+    "tag": "button",
+    "text": "0%",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "button.sc-gwxyPx.fViAiB"
+  },
+  {
+    "tag": "div",
+    "text": "",
+    "aria": null,
+    "role": "status",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "div#DndLiveRegion-21"
+  },
+  {
+    "tag": "div",
+    "text": "Download Linear\nAvailable for macOS, Windows, iOS, and Android.\nDownload",
+    "aria": null,
+    "role": "status",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "div.sc-jCttAn.sc-bdArtk"
+  },
+  {
+    "tag": "button",
+    "text": "",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": null,
+    "type": "button",
+    "selector": "button.sc-fDKFyg.jllzpL"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg"
+  },
+  {
+    "tag": "a",
+    "text": "Download",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": "https://linear.app/download",
+    "type": null,
+    "selector": "a.sc-kIbbrj.dCGhYQ"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg"
+  }
+]

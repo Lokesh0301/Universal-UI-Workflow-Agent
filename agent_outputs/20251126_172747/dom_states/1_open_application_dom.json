@@ -1,0 +1,502 @@
+[
+  {
+    "tag": "a",
+    "text": "",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": "/-/login_page_log?se=%7B%22action%22%3A%22LinkClicked%22%2C%22sub_action%22%3A%22AsanaLogo%22%2C%22location%22%3A%22LoginPage%22%2C%22url%22%3A%22https%3A%2F%2Fasana.com%2F%22%2C%22name%22%3A%22LinkClicked%22%2C%22non_user_action_event%22%3Afalse%7D&allowed=login_page&dest=https%3A%2F%2Fasana.com%2F",
+    "type": null,
+    "selector": "a.LinkThemeablePresentation.LinkPrimaryPresentation"
+  },
+  {
+    "tag": "div",
+    "text": "Continue with Google",
+    "aria": null,
+    "role": "button",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "div.ButtonThemeablePresentation--isEnabled.ButtonThemeablePresentation"
+  },
+  {
+    "tag": "input",
+    "text": "",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": null,
+    "type": "email",
+    "selector": "input#lui_21"
+  },
+  {
+    "tag": "div",
+    "text": "Continue",
+    "aria": null,
+    "role": "button",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "div.ButtonThemeablePresentation--isEnabled.ButtonThemeablePresentation"
+  },
+  {
+    "tag": "a",
+    "text": "Asana.com",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": "https://asana.com/",
+    "type": null,
+    "selector": "a.LinkThemeablePresentation.LinkHiddenPresentation"
+  },
+  {
+    "tag": "a",
+    "text": "Support",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": "https://help.asana.com",
+    "type": null,
+    "selector": "a.LinkThemeablePresentation.LinkHiddenPresentation"
+  },
+  {
+    "tag": "a",
+    "text": "Integrations",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": "https://asana.com/apps",
+    "type": null,
+    "selector": "a.LinkThemeablePresentation.LinkHiddenPresentation"
+  },
+  {
+    "tag": "a",
+    "text": "Forum",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": "https://forum.asana.com",
+    "type": null,
+    "selector": "a.LinkThemeablePresentation.LinkHiddenPresentation"
+  },
+  {
+    "tag": "a",
+    "text": "Developers & API",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": "https://developers.asana.com",
+    "type": null,
+    "selector": "a.LinkThemeablePresentation.LinkHiddenPresentation"
+  },
+  {
+    "tag": "a",
+    "text": "Resources",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": "https://asana.com/resources",
+    "type": null,
+    "selector": "a.LinkThemeablePresentation.LinkHiddenPresentation"
+  },
+  {
+    "tag": "a",
+    "text": "Guide",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": "https://asana.com/guide",
+    "type": null,
+    "selector": "a.LinkThemeablePresentation.LinkHiddenPresentation"
+  },
+  {
+    "tag": "a",
+    "text": "Templates",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": "https://asana.com/templates",
+    "type": null,
+    "selector": "a.LinkThemeablePresentation.LinkHiddenPresentation"
+  },
+  {
+    "tag": "a",
+    "text": "Pricing",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": "https://asana.com/pricing",
+    "type": null,
+    "selector": "a.LinkThemeablePresentation.LinkHiddenPresentation"
+  },
+  {
+    "tag": "a",
+    "text": "Terms",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": "https://asana.com/terms",
+    "type": null,
+    "selector": "a.LinkThemeablePresentation.LinkHiddenPresentation"
+  },
+  {
+    "tag": "a",
+    "text": "Privacy",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": "https://asana.com/terms#privacy-policy",
+    "type": null,
+    "selector": "a.LinkThemeablePresentation.LinkHiddenPresentation"
+  },
+  {
+    "tag": "a",
+    "text": "Privacy Policy",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": "https://policies.google.com/privacy",
+    "type": null,
+    "selector": "a.LinkThemeablePresentation.LinkThemeablePresentation--alwaysUnderline"
+  },
+  {
+    "tag": "a",
+    "text": "Terms of Service",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": "https://policies.google.com/terms",
+    "type": null,
+    "selector": "a.LinkThemeablePresentation.LinkThemeablePresentation--alwaysUnderline"
+  },
+  {
+    "tag": "div",
+    "text": "Privacy Preference CenterWhen you visit any website, it may store or retrieve information on your browser, mostly in the form of cookies. This information might be about you, your preferences or your ",
+    "aria": "Preference center",
+    "role": "region",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "div#onetrust-pc-sdk"
+  },
+  {
+    "tag": "div",
+    "text": "Privacy Preference CenterWhen you visit any website, it may store or retrieve information on your browser, mostly in the form of cookies. This information might be about you, your preferences or your ",
+    "aria": "Privacy Preference Center",
+    "role": "dialog",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "div[aria-label=\"Privacy Preference Center\"]"
+  },
+  {
+    "tag": "div",
+    "text": "",
+    "aria": "Company Logo",
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "div[aria-label=\"Company Logo\"]"
+  },
+  {
+    "tag": "button",
+    "text": "",
+    "aria": "Close preference center",
+    "role": null,
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "button#close-pc-btn-handler"
+  },
+  {
+    "tag": "button",
+    "text": "Allow All",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "button#accept-recommended-btn-handler"
+  },
+  {
+    "tag": "button",
+    "text": "",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "button"
+  },
+  {
+    "tag": "button",
+    "text": "Cookies Details\u200e",
+    "aria": "Strictly Necessary Cookies - Cookie Details button opens Cookie List menu",
+    "role": null,
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "button[aria-label=\"Strictly Necessary Cookies - Cookie Details button opens Cookie List menu\"]"
+  },
+  {
+    "tag": "button",
+    "text": "",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "button"
+  },
+  {
+    "tag": "input",
+    "text": "",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": null,
+    "type": "checkbox",
+    "selector": "input#ot-group-id-C0002"
+  },
+  {
+    "tag": "button",
+    "text": "Cookies Details\u200e",
+    "aria": "Performance Cookies - Cookie Details button opens Cookie List menu",
+    "role": null,
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "button[aria-label=\"Performance Cookies - Cookie Details button opens Cookie List menu\"]"
+  },
+  {
+    "tag": "button",
+    "text": "",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "button"
+  },
+  {
+    "tag": "input",
+    "text": "",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": null,
+    "type": "checkbox",
+    "selector": "input#ot-group-id-C0003"
+  },
+  {
+    "tag": "button",
+    "text": "Cookies Details\u200e",
+    "aria": "Functional Cookies - Cookie Details button opens Cookie List menu",
+    "role": null,
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "button[aria-label=\"Functional Cookies - Cookie Details button opens Cookie List menu\"]"
+  },
+  {
+    "tag": "button",
+    "text": "",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "button"
+  },
+  {
+    "tag": "input",
+    "text": "",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": null,
+    "type": "checkbox",
+    "selector": "input#ot-group-id-C0004"
+  },
+  {
+    "tag": "button",
+    "text": "Cookies Details\u200e",
+    "aria": "Targeting Cookies - Cookie Details button opens Cookie List menu",
+    "role": null,
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "button[aria-label=\"Targeting Cookies - Cookie Details button opens Cookie List menu\"]"
+  },
+  {
+    "tag": "button",
+    "text": "Back Button",
+    "aria": "Back",
+    "role": null,
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "button[aria-label=\"Back\"]"
+  },
+  {
+    "tag": "p",
+    "text": "",
+    "aria": null,
+    "role": "status",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "p.ot-scrn-rdr"
+  },
+  {
+    "tag": "input",
+    "text": "",
+    "aria": "Cookie list search",
+    "role": null,
+    "placeholder": "Search\u2026",
+    "href": null,
+    "type": "text",
+    "selector": "input#vendor-search-handler"
+  },
+  {
+    "tag": "button",
+    "text": "Filter Icon",
+    "aria": "Filter Cookie List",
+    "role": null,
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "button#filter-btn-handler"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "presentation",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg"
+  },
+  {
+    "tag": "button",
+    "text": "Clear",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "button#clear-filters-handler"
+  },
+  {
+    "tag": "div",
+    "text": "checkbox label labelApply Cancel",
+    "aria": null,
+    "role": "group",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "div.ot-fltr-scrlcnt.ot-pc-scrollbar"
+  },
+  {
+    "tag": "input",
+    "text": "",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": null,
+    "type": "checkbox",
+    "selector": "input#chkbox-id"
+  },
+  {
+    "tag": "button",
+    "text": "Apply",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "button#filter-apply-handler"
+  },
+  {
+    "tag": "button",
+    "text": "Cancel",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "button#filter-cancel-handler"
+  },
+  {
+    "tag": "input",
+    "text": "",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": null,
+    "type": "checkbox",
+    "selector": "input#select-all-hosts-groups-handler"
+  },
+  {
+    "tag": "input",
+    "text": "",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": null,
+    "type": "checkbox",
+    "selector": "input#select-all-vendor-groups-handler"
+  },
+  {
+    "tag": "input",
+    "text": "",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": null,
+    "type": "checkbox",
+    "selector": "input#select-all-vendor-leg-handler"
+  },
+  {
+    "tag": "button",
+    "text": "Confirm My Choices",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "button.save-preference-btn-handler.onetrust-close-btn-handler"
+  },
+  {
+    "tag": "a",
+    "text": "",
+    "aria": "Powered by OneTrust Opens in a new Tab",
+    "role": null,
+    "placeholder": null,
+    "href": "https://www.onetrust.com/products/cookie-consent/",
+    "type": null,
+    "selector": "a[aria-label=\"Powered by OneTrust Opens in a new Tab\"]"
+  },
+  {
+    "tag": "iframe",
+    "text": "",
+    "aria": null,
+    "role": "presentation",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "iframe[name=\"a-c0dimciq2nxz\"]"
+  },
+  {
+    "tag": "textarea",
+    "text": "",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "textarea#g-recaptcha-response-100000"
+  }
+]

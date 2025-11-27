@@ -1,0 +1,1682 @@
+[
+  {
+    "tag": "a",
+    "text": "Skip to content \u2192",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": "#skip-nav",
+    "type": null,
+    "selector": "a.SkipNav-module__GR_XUG__root"
+  },
+  {
+    "tag": "a",
+    "text": "",
+    "aria": "Navigate to home",
+    "role": null,
+    "placeholder": null,
+    "href": "/homepage",
+    "type": null,
+    "selector": "a[aria-label=\"Navigate to home\"]"
+  },
+  {
+    "tag": "button",
+    "text": "Product",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "button#radix-_R_nanpfcqlb_-trigger-product"
+  },
+  {
+    "tag": "a",
+    "text": "Product",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": "/features",
+    "type": null,
+    "selector": "a#radix-_R_nanpfcqlb_-trigger-product"
+  },
+  {
+    "tag": "button",
+    "text": "Resources",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "button#radix-_R_nanpfcqlb_-trigger-resources"
+  },
+  {
+    "tag": "a",
+    "text": "Resources",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": "/about",
+    "type": null,
+    "selector": "a#radix-_R_nanpfcqlb_-trigger-resources"
+  },
+  {
+    "tag": "a",
+    "text": "Pricing",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": "/pricing",
+    "type": null,
+    "selector": "a.Header-module__PXV_2W__anchor.Link-module__TqD7sG__root"
+  },
+  {
+    "tag": "a",
+    "text": "Customers",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": "/customers",
+    "type": null,
+    "selector": "a.Header-module__PXV_2W__anchor.Link-module__TqD7sG__root"
+  },
+  {
+    "tag": "a",
+    "text": "Now",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": "/now",
+    "type": null,
+    "selector": "a.Header-module__PXV_2W__anchor.Link-module__TqD7sG__root"
+  },
+  {
+    "tag": "a",
+    "text": "Contact",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": "/contact",
+    "type": null,
+    "selector": "a.Header-module__PXV_2W__anchor.Link-module__TqD7sG__root"
+  },
+  {
+    "tag": "a",
+    "text": "Docs",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": "/docs",
+    "type": null,
+    "selector": "a.Header-module__PXV_2W__anchor.Link-module__TqD7sG__root"
+  },
+  {
+    "tag": "a",
+    "text": "Open app",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": "/login",
+    "type": "button",
+    "selector": "a.Button-module__bZ-sGa__root.Button-module__bZ-sGa__variant-invert"
+  },
+  {
+    "tag": "a",
+    "text": "Log in",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": "/login",
+    "type": null,
+    "selector": "a.Header-module__PXV_2W__anchor.Link-module__TqD7sG__root"
+  },
+  {
+    "tag": "a",
+    "text": "Sign up",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": "/signup",
+    "type": "button",
+    "selector": "a.Button-module__bZ-sGa__root.Button-module__bZ-sGa__variant-invert"
+  },
+  {
+    "tag": "button",
+    "text": "",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": null,
+    "type": "button",
+    "selector": "button.Header-module__PXV_2W__mobileMenuTrigger.reset-module__RLQqCG__reset-button"
+  },
+  {
+    "tag": "a",
+    "text": "Start building",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": "/signup",
+    "type": "button",
+    "selector": "a.Button-module__bZ-sGa__root.Button-module__bZ-sGa__variant-invert"
+  },
+  {
+    "tag": "a",
+    "text": "Start building",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": "/login",
+    "type": "button",
+    "selector": "a.Button-module__bZ-sGa__root.Button-module__bZ-sGa__variant-invert"
+  },
+  {
+    "tag": "a",
+    "text": "New: Linear agent for Slack",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": "https://linear.app/changelog/2025-10-23-linear-agent-for-slack",
+    "type": "button",
+    "selector": "a.Button-module__bZ-sGa__root.Button-module__bZ-sGa__variant-ghost"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg"
+  },
+  {
+    "tag": "a",
+    "text": "Start building",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": "/login",
+    "type": "button",
+    "selector": "a.Button-module__bZ-sGa__root.Button-module__bZ-sGa__variant-invert"
+  },
+  {
+    "tag": "a",
+    "text": "New: Linear agent for Slack",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": "https://linear.app/changelog/2025-10-23-linear-agent-for-slack",
+    "type": "button",
+    "selector": "a.Button-module__bZ-sGa__root.Button-module__bZ-sGa__variant-ghost"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg"
+  },
+  {
+    "tag": "a",
+    "text": "Meet our customers",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": "/customers",
+    "type": null,
+    "selector": "a.hide-tablet.page-module__x5b50W__customersLink"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg.Icon-module__PGbYKa__logotype.color-module__UZINAa__primary"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg.Icon-module__PGbYKa__logotype.color-module__UZINAa__primary"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg.Icon-module__PGbYKa__logotype.color-module__UZINAa__primary"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg.Icon-module__PGbYKa__logotype.color-module__UZINAa__primary"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg.Icon-module__PGbYKa__logotype.color-module__UZINAa__primary"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg.Icon-module__PGbYKa__logotype.color-module__UZINAa__primary"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg.Icon-module__PGbYKa__logotype.color-module__UZINAa__primary"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg.Icon-module__PGbYKa__logotype.color-module__UZINAa__primary"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg"
+  },
+  {
+    "tag": "a",
+    "text": "",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": "/customers",
+    "type": null,
+    "selector": "a.show-tablet.Link-module__TqD7sG__root"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg.Icon-module__PGbYKa__logotype.color-module__UZINAa__primary"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg.Icon-module__PGbYKa__logotype.color-module__UZINAa__primary"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg.Icon-module__PGbYKa__logotype.color-module__UZINAa__primary"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg.Icon-module__PGbYKa__logotype.color-module__UZINAa__primary"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg.Icon-module__PGbYKa__logotype.color-module__UZINAa__primary"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg.Icon-module__PGbYKa__logotype.color-module__UZINAa__primary"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg.Icon-module__PGbYKa__logotype.color-module__UZINAa__primary"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg.Icon-module__PGbYKa__logotype.color-module__UZINAa__primary"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg.Icon-module__PGbYKa__logotype.color-module__UZINAa__primary"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg.Icon-module__PGbYKa__logotype.color-module__UZINAa__primary"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg.Icon-module__PGbYKa__logotype.color-module__UZINAa__primary"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg.Icon-module__PGbYKa__logotype.color-module__UZINAa__primary"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg.Icon-module__PGbYKa__logotype.color-module__UZINAa__primary"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg.Icon-module__PGbYKa__logotype.color-module__UZINAa__primary"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg.Icon-module__PGbYKa__logotype.color-module__UZINAa__primary"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg.Icon-module__PGbYKa__logotype.color-module__UZINAa__primary"
+  },
+  {
+    "tag": "a",
+    "text": "Make the switch",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": "/switch",
+    "type": null,
+    "selector": "a.Link-module__TqD7sG__root"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg.page-module__x5b50W__chevronLink"
+  },
+  {
+    "tag": "button",
+    "text": "Purpose-built for product development",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": null,
+    "type": "button",
+    "selector": "button.DifferentCard-module__ZPfTEW__differentCard.reset-module__RLQqCG__reset-button"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg"
+  },
+  {
+    "tag": "button",
+    "text": "Designed to move fast",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": null,
+    "type": "button",
+    "selector": "button.DifferentCard-module__ZPfTEW__differentCard.reset-module__RLQqCG__reset-button"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg"
+  },
+  {
+    "tag": "button",
+    "text": "Crafted to perfection",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": null,
+    "type": "button",
+    "selector": "button.DifferentCard-module__ZPfTEW__differentCard.reset-module__RLQqCG__reset-button"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg"
+  },
+  {
+    "tag": "a",
+    "text": "Artificial intelligence\nAI-assisted product development",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": "/ai",
+    "type": null,
+    "selector": "a.Link-module__TqD7sG__root"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg.page-module__x5b50W__chevronLink"
+  },
+  {
+    "tag": "a",
+    "text": "Learn more",
+    "aria": "Visit Linear Agents page",
+    "role": null,
+    "placeholder": null,
+    "href": "/agents",
+    "type": "button",
+    "selector": "a[aria-label=\"Visit Linear Agents page\"]"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg"
+  },
+  {
+    "tag": "input",
+    "text": "",
+    "aria": null,
+    "role": null,
+    "placeholder": "Assign to\u2026",
+    "href": null,
+    "type": null,
+    "selector": "input.page-module__HPIeYG__cmdkInput"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg"
+  },
+  {
+    "tag": "button",
+    "text": "nan",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "button.page-module__QbE8ja__suggestionButton"
+  },
+  {
+    "tag": "button",
+    "text": "Mobile App Refactor",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "button.page-module__QbE8ja__suggestionButton"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg"
+  },
+  {
+    "tag": "button",
+    "text": "Slack",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "button.page-module__QbE8ja__suggestionButton"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg"
+  },
+  {
+    "tag": "button",
+    "text": "yann",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "button.page-module__QbE8ja__suggestionButton"
+  },
+  {
+    "tag": "button",
+    "text": "erin",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "button.page-module__QbE8ja__suggestionButton"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg.color-override"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": "Medium Priority",
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg[aria-label=\"Medium Priority\"]"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg.color-override"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg"
+  },
+  {
+    "tag": "button",
+    "text": "Accept suggestion",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": null,
+    "type": "button",
+    "selector": "button.Button-module__bZ-sGa__root.Button-module__bZ-sGa__variant-secondary"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg"
+  },
+  {
+    "tag": "a",
+    "text": "Project and long-term planning\nSet the product direction",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": "/plan",
+    "type": null,
+    "selector": "a.Link-module__TqD7sG__root"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg.page-module__x5b50W__chevronLink"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg.color-override"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg"
+  },
+  {
+    "tag": "div",
+    "text": "Collaborative documents\nInline comments\nText-to-issue commands",
+    "aria": null,
+    "role": "group",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "div.Editor-module__8mxfpG__toggleRoot"
+  },
+  {
+    "tag": "button",
+    "text": "Collaborative documents",
+    "aria": null,
+    "role": "radio",
+    "placeholder": null,
+    "href": null,
+    "type": "button",
+    "selector": "button.Editor-module__8mxfpG__button.reset-module__RLQqCG__reset-button"
+  },
+  {
+    "tag": "button",
+    "text": "Inline comments",
+    "aria": null,
+    "role": "radio",
+    "placeholder": null,
+    "href": null,
+    "type": "button",
+    "selector": "button.Editor-module__8mxfpG__button.reset-module__RLQqCG__reset-button"
+  },
+  {
+    "tag": "button",
+    "text": "Text-to-issue commands",
+    "aria": null,
+    "role": "radio",
+    "placeholder": null,
+    "href": null,
+    "type": "button",
+    "selector": "button.Editor-module__8mxfpG__button.reset-module__RLQqCG__reset-button"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg"
+  },
+  {
+    "tag": "a",
+    "text": "Task tracking and sprint planning\nIssue tracking you\u2019ll enjoy using",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": "/build",
+    "type": null,
+    "selector": "a.Link-module__TqD7sG__root"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg.page-module__x5b50W__chevronLink"
+  },
+  {
+    "tag": "div",
+    "text": "Cycle 55\nScope\nStarted\nCompleted",
+    "aria": "Cycle 55 in Linear, showing how much the scope increased and how many issues were started and completed over time",
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "div[aria-label=\"Cycle 55 in Linear, showing how much the scope increased and how many issues were started and completed over time\"]"
+  },
+  {
+    "tag": "div",
+    "text": "Triage\nUsers report unexpected rate limiting\ntom\nRangeError: Index 0 out of range\nromain\nPressing \"Enter\" quickly when logging in via email generates multiple emails\ntuomas\nAccept\nMark as duplicate\nDe",
+    "aria": "Triage in Linear, showing three issues waiting to be triaged. The Triage menu is open, with options to Accept, Mark as Duplicate, or Decline the selected issue",
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "div[aria-label=\"Triage in Linear, showing three issues waiting to be triaged. The Triage menu is open, with options to Accept, Mark as Duplicate, or Decline the selected issue\"]"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg"
+  },
+  {
+    "tag": "a",
+    "text": "Learn more",
+    "aria": "Visit Linear Insights page",
+    "role": null,
+    "placeholder": null,
+    "href": "/insights",
+    "type": "button",
+    "selector": "a[aria-label=\"Visit Linear Insights page\"]"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg"
+  },
+  {
+    "tag": "a",
+    "text": "Customer Requests\n\nBuild what customers actually want",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": "/customer-requests",
+    "type": null,
+    "selector": "a.HomepageCarousel-module__U2qd5W__workflowCard.WorkflowCard-module__yM1mQa__card"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg"
+  },
+  {
+    "tag": "button",
+    "text": "Powerful git workflows\n\nAutomate pull requests and commit workflows",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": null,
+    "type": "button",
+    "selector": "button.HomepageCarousel-module__U2qd5W__workflowCard.WorkflowCard-module__yM1mQa__card"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg"
+  },
+  {
+    "tag": "a",
+    "text": "Linear Mobile\n\nMove product work forward from anywhere",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": "/mobile",
+    "type": null,
+    "selector": "a.HomepageCarousel-module__U2qd5W__workflowCard.WorkflowCard-module__yM1mQa__card"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg"
+  },
+  {
+    "tag": "a",
+    "text": "Linear Asks\n\nTurn workplace requests into actionable issues",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": "/asks",
+    "type": null,
+    "selector": "a.HomepageCarousel-module__U2qd5W__workflowCard.WorkflowCard-module__yM1mQa__card"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg"
+  },
+  {
+    "tag": "a",
+    "text": "Linear integrations\n\n100+ ways to enhance your Linear experience",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": "/integrations",
+    "type": null,
+    "selector": "a.HomepageCarousel-module__U2qd5W__workflowCard.WorkflowCard-module__yM1mQa__card"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg"
+  },
+  {
+    "tag": "a",
+    "text": "Figma integration\n\nBridge the gap between engineering and design",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": "/integrations/figma",
+    "type": null,
+    "selector": "a.HomepageCarousel-module__U2qd5W__workflowCard.WorkflowCard-module__yM1mQa__card"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg"
+  },
+  {
+    "tag": "a",
+    "text": "Built for developers\n\nBuild your own add-ons with the Linear API",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": "https://developers.linear.app",
+    "type": null,
+    "selector": "a.HomepageCarousel-module__U2qd5W__workflowCard.WorkflowCard-module__yM1mQa__card"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg"
+  },
+  {
+    "tag": "button",
+    "text": "",
+    "aria": "Previous slide",
+    "role": null,
+    "placeholder": null,
+    "href": null,
+    "type": "button",
+    "selector": "button[aria-label=\"Previous slide\"]"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg"
+  },
+  {
+    "tag": "button",
+    "text": "",
+    "aria": "Next slide",
+    "role": null,
+    "placeholder": null,
+    "href": null,
+    "type": "button",
+    "selector": "button[aria-label=\"Next slide\"]"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg"
+  },
+  {
+    "tag": "a",
+    "text": "Enterprise-ready security",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": "/security",
+    "type": null,
+    "selector": "a.Link-module__TqD7sG__root"
+  },
+  {
+    "tag": "svg",
+    "text": "",
+    "aria": null,
+    "role": "img",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "svg.page-module__x5b50W__chevronLink"
+  },
+  {
+    "tag": "a",
+    "text": "Contact sales",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": "/contact/sales",
+    "type": "button",
+    "selector": "a.Button-module__bZ-sGa__root.Button-module__bZ-sGa__variant-secondary"
+  },
+  {
+    "tag": "a",
+    "text": "Get started",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": "/signup",
+    "type": "button",
+    "selector": "a.Button-module__bZ-sGa__root.Button-module__bZ-sGa__variant-invert"
+  },
+  {
+    "tag": "a",
+    "text": "Download",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": "/download",
+    "type": "button",
+    "selector": "a.Button-module__bZ-sGa__root.Button-module__bZ-sGa__variant-secondary"
+  },
+  {
+    "tag": "a",
+    "text": "Open app",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": "/login",
+    "type": "button",
+    "selector": "a.Button-module__bZ-sGa__root.Button-module__bZ-sGa__variant-invert"
+  },
+  {
+    "tag": "a",
+    "text": "",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": "/",
+    "type": null,
+    "selector": "a.Footer-module__Cy4DCa__logoWrapper.Link-module__TqD7sG__root"
+  },
+  {
+    "tag": "a",
+    "text": "Plan",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": "/plan",
+    "type": null,
+    "selector": "a.Footer-module__Cy4DCa__sectionLink.Link-module__TqD7sG__root"
+  },
+  {
+    "tag": "a",
+    "text": "Build",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": "/build",
+    "type": null,
+    "selector": "a.Footer-module__Cy4DCa__sectionLink.Link-module__TqD7sG__root"
+  },
+  {
+    "tag": "a",
+    "text": "Insights",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": "/insights",
+    "type": null,
+    "selector": "a.Footer-module__Cy4DCa__sectionLink.Link-module__TqD7sG__root"
+  },
+  {
+    "tag": "a",
+    "text": "Customer Requests",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": "/customer-requests",
+    "type": null,
+    "selector": "a.Footer-module__Cy4DCa__sectionLink.Link-module__TqD7sG__root"
+  },
+  {
+    "tag": "a",
+    "text": "Linear Asks",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": "/asks",
+    "type": null,
+    "selector": "a.Footer-module__Cy4DCa__sectionLink.Link-module__TqD7sG__root"
+  },
+  {
+    "tag": "a",
+    "text": "Security",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": "/security",
+    "type": null,
+    "selector": "a.Footer-module__Cy4DCa__sectionLink.Link-module__TqD7sG__root"
+  },
+  {
+    "tag": "a",
+    "text": "Mobile",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": "/mobile",
+    "type": null,
+    "selector": "a.Footer-module__Cy4DCa__sectionLink.Link-module__TqD7sG__root"
+  },
+  {
+    "tag": "a",
+    "text": "Pricing",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": "/pricing",
+    "type": null,
+    "selector": "a.Footer-module__Cy4DCa__sectionLink.Link-module__TqD7sG__root"
+  },
+  {
+    "tag": "a",
+    "text": "Method",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": "/method",
+    "type": null,
+    "selector": "a.Footer-module__Cy4DCa__sectionLink.Link-module__TqD7sG__root"
+  },
+  {
+    "tag": "a",
+    "text": "Integrations",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": "/integrations",
+    "type": null,
+    "selector": "a.Footer-module__Cy4DCa__sectionLink.Link-module__TqD7sG__root"
+  },
+  {
+    "tag": "a",
+    "text": "Changelog",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": "/changelog",
+    "type": null,
+    "selector": "a.Footer-module__Cy4DCa__sectionLink.Link-module__TqD7sG__root"
+  },
+  {
+    "tag": "a",
+    "text": "Documentation",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": "/docs",
+    "type": null,
+    "selector": "a.Footer-module__Cy4DCa__sectionLink.Link-module__TqD7sG__root"
+  },
+  {
+    "tag": "a",
+    "text": "Download",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": "/download",
+    "type": null,
+    "selector": "a.Footer-module__Cy4DCa__sectionLink.Link-module__TqD7sG__root"
+  },
+  {
+    "tag": "a",
+    "text": "Switch",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": "/switch",
+    "type": null,
+    "selector": "a.Footer-module__Cy4DCa__sectionLink.Link-module__TqD7sG__root"
+  },
+  {
+    "tag": "a",
+    "text": "About",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": "/about",
+    "type": null,
+    "selector": "a.Footer-module__Cy4DCa__sectionLink.Link-module__TqD7sG__root"
+  },
+  {
+    "tag": "a",
+    "text": "Customers",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": "/customers",
+    "type": null,
+    "selector": "a.Footer-module__Cy4DCa__sectionLink.Link-module__TqD7sG__root"
+  },
+  {
+    "tag": "a",
+    "text": "Careers",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": "/careers",
+    "type": null,
+    "selector": "a.Footer-module__Cy4DCa__sectionLink.Link-module__TqD7sG__root"
+  },
+  {
+    "tag": "a",
+    "text": "Now",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": "/now",
+    "type": null,
+    "selector": "a.Footer-module__Cy4DCa__sectionLink.Link-module__TqD7sG__root"
+  },
+  {
+    "tag": "a",
+    "text": "README",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": "/readme",
+    "type": null,
+    "selector": "a.Footer-module__Cy4DCa__sectionLink.Link-module__TqD7sG__root"
+  },
+  {
+    "tag": "a",
+    "text": "Quality",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": "/quality",
+    "type": null,
+    "selector": "a.Footer-module__Cy4DCa__sectionLink.Link-module__TqD7sG__root"
+  },
+  {
+    "tag": "a",
+    "text": "Brand",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": "/brand",
+    "type": null,
+    "selector": "a.Footer-module__Cy4DCa__sectionLink.Link-module__TqD7sG__root"
+  },
+  {
+    "tag": "a",
+    "text": "Developers",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": "/developers",
+    "type": null,
+    "selector": "a.Footer-module__Cy4DCa__sectionLink.Link-module__TqD7sG__root"
+  },
+  {
+    "tag": "a",
+    "text": "Status",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": "https://linearstatus.com",
+    "type": null,
+    "selector": "a.Footer-module__Cy4DCa__sectionLink.Link-module__TqD7sG__root"
+  },
+  {
+    "tag": "a",
+    "text": "Startups",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": "/startups",
+    "type": null,
+    "selector": "a.Footer-module__Cy4DCa__sectionLink.Link-module__TqD7sG__root"
+  },
+  {
+    "tag": "a",
+    "text": "Report vulnerability",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": "/security/vulnerability",
+    "type": null,
+    "selector": "a.Footer-module__Cy4DCa__sectionLink.Link-module__TqD7sG__root"
+  },
+  {
+    "tag": "a",
+    "text": "DPA",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": "/dpa",
+    "type": null,
+    "selector": "a.Footer-module__Cy4DCa__sectionLink.Link-module__TqD7sG__root"
+  },
+  {
+    "tag": "a",
+    "text": "Privacy",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": "/privacy",
+    "type": null,
+    "selector": "a.Footer-module__Cy4DCa__sectionLink.Link-module__TqD7sG__root"
+  },
+  {
+    "tag": "a",
+    "text": "Terms",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": "/terms",
+    "type": null,
+    "selector": "a.Footer-module__Cy4DCa__sectionLink.Link-module__TqD7sG__root"
+  },
+  {
+    "tag": "a",
+    "text": "Contact us",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": "/contact",
+    "type": null,
+    "selector": "a.Footer-module__Cy4DCa__sectionLink.Link-module__TqD7sG__root"
+  },
+  {
+    "tag": "a",
+    "text": "Community",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": "https://linear.app/join-slack",
+    "type": null,
+    "selector": "a.Footer-module__Cy4DCa__sectionLink.Link-module__TqD7sG__root"
+  },
+  {
+    "tag": "a",
+    "text": "X (Twitter)",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": "https://x.com/linear",
+    "type": null,
+    "selector": "a.Footer-module__Cy4DCa__sectionLink.Link-module__TqD7sG__root"
+  },
+  {
+    "tag": "a",
+    "text": "GitHub",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": "https://github.com/linear",
+    "type": null,
+    "selector": "a.Footer-module__Cy4DCa__sectionLink.Link-module__TqD7sG__root"
+  },
+  {
+    "tag": "a",
+    "text": "YouTube",
+    "aria": null,
+    "role": null,
+    "placeholder": null,
+    "href": "https://www.youtube.com/@linear",
+    "type": null,
+    "selector": "a.Footer-module__Cy4DCa__sectionLink.Link-module__TqD7sG__root"
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "tag": "span",
+    "text": "",
+    "aria": null,
+    "role": "progressbar",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "span[data-testid=\"loading-spinner\"]"
+  },
+  {
+    "tag": "div",
+    "text": "",
+    "aria": null,
+    "role": "progressbar",
+    "placeholder": null,
+    "href": null,
+    "type": null,
+    "selector": "div#skeleton"
+  }
+]
